@@ -88,9 +88,8 @@ function labelTransform(d) {
 }
 
     return svg.node();
-  
 
-data = FileAttachment("mushroom.json").json()
+data = FileAttachment("mushroom_list.json").json()
 
 partition = data => {
 const root = d3.hierarchy(data)
