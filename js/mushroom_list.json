@@ -617,73 +617,128 @@
                 {
                     "name": "Bondarzewia",
                     "children": [
-
+                        {"name": "Bondarzewia berkeleyi", "value": 1},
+                        {"name": "Bondarzewia dickinsii", "value": 1},
+                        {"name": "Bondarzewia mesenterica", "value": 1},
+                        {"name": "Bondarzewia submesenterica", "value": 1},
+                        {"name": "Bondarzewia tibetica", "value": 1}
                     ]
                 },
                 {
                     "name": "Bonomyces",
                     "children": [
-
+                        {"name": "Bonomyces sinopicus", "value": 1}
                     ]
                 },
                 {
                     "name": "Bothia",
                     "children": [
-
+                        {"name": "Bothia castanella", "value": 1}
                     ]
                 },
                 {
                     "name": "Bovista",
                     "children": [
-
+                        {"name": "Bovista aestivalis", "value": 1},
+                        {"name": "Bovista longispora", "value": 1},
+                        {"name": "Bovista nigrescens", "value": 1},
+                        {"name": "Bovista paludosa", "value": 1},
+                        {"name": "Bovista pila", "value": 1},
+                        {"name": "Bovista plumbea", "value": 1},
+                        {"name": "Bovista polymorpha", "value": 1},
+                        {"name": "Bovista promontorii", "value": 1},
+                        {"name": "Bovista pusilla", "value": 1}
                     ]
                 },
                 {
                     "name": "Bovistella",
                     "children": [
-
+                        {"name": "Bovistella longipedicellata", "value": 1},
+                        {"name": "Bovistella utriformis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Brunneoporus",
+                    "children": [
+                        {"name": "Brunneoporus malicola", "value": 1}
                     ]
                 },
                 {
                     "name": "Buchwaldoboletus",
                     "children": [
-
+                        {"name": "Buchwaldoboletus spectabilis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Buglossoporus",
+                    "children": [
+                        {"name": "Buglossoporus quercinus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Bulgaria",
+                    "children": [
+                        {"name": "Bulgaria inquinans", "value": 1}
                     ]
                 },
                 {
                     "name": "Butyriboletus",
                     "children": [
-
+                        {"name": "Butyriboletus appendiculatus", "value": 1},
+                        {"name": "Butyriboletus frostii", "value": 1},
+                        {"name": "Butyriboletus loyo", "value": 1},
+                        {"name": "Butyriboletus pseudoregius", "value": 1},
+                        {"name": "Butyriboletus pseudospeciosus", "value": 1},
+                        {"name": "Butyriboletus regius", "value": 1},
+                        {"name": "Butyriboletus roseoflavus", "value": 1},
+                        {"name": "Butyriboletus sanicibus", "value": 1},
+                        {"name": "Butyriboletus subsplendidus", "value": 1},
+                        {"name": "Butyriboletus yicibus", "value": 1}
                     ]
                 },
                 {
                     "name": "Byssomerulius",
                     "children": [
-
+                        {"name": "Byssomerulius corium", "value": 1},
+                        {"name": "Byssomerulius incarnatus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Calcipostia",
+                    "children": [
+                        {"name": "Calcipostia guttulata", "value": 1}
                     ]
                 },
                 {
                     "name": "Callistosporium",
                     "children": [
-
+                        {"name": "Callistosporium luteo-olivaceum", "value": 1}
                     ]
                 },
                 {
                     "name": "Caloboletus",
                     "children": [
-
+                        {"name": "Caloboletus calopus (was Boletus calopus)", "value": 1},
+                        {"name": "Caloboletus radicans", "value": 1},
+                        {"name": "Caloboletus taienus", "value": 1}
                     ]
                 },
                 {
                     "name": "Calocera",
                     "children": [
-
+                        {"name": "Calocera cornea", "value": 1},
+                        {"name": "Calocera viscosa", "value": 1}
                     ]
                 },
                 {
                     "name": "Calocybe",
                     "children": [
-
+                        {"name": "Calocybe carnea", "value": 1},
+                        {"name": "Calocybe gambosa", "value": 1},
+                        {"name": "Calocybe gangraenosa", "value": 1},
+                        {"name": "Calocybe indica", "value": 1},
+                        {"name": "Calocybe ionides", "value": 1},
+                        {"name": "Calocybe ochracea", "value": 1}
                     ]
                 },
                 {
