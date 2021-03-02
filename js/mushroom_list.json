@@ -466,61 +466,152 @@
                 {
                     "name": "Auriscalpium",
                     "children": [
-
+                        {"name": "Auriscalpium vulgare", "value": 1}
                     ]
                 },
                 {
                     "name": "Austroboletus",
                     "children": [
-
+                        {"name": "Austroboletus fusisporus", "value": 1},
+                        {"name": "Austroboletus gracilis", "value": 1},
+                        {"name": "Austroboletus occidentalis", "value": 1},
+                        {"name": "Austroboletus subvirens", "value": 1}
                     ]
                 },
                 {
                     "name": "Baeospora",
                     "children": [
-
+                        {"name": "Baeospora myosura", "value": 1}
                     ]
                 },
                 {
                     "name": "Bankera",
                     "children": [
-
+                        {"name": "Bankera violacea", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Baorangia",
+                    "children": [
+                        {"name": "Baorangia pseudocalopus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Bisporella",
+                    "children": [
+                        {"name": "Bisporella citrina", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Bjerkandera",
+                    "children": [
+                        {"name": "Bjerkandera adusta", "value": 1}
                     ]
                 },
                 {
                     "name": "Bolbitius",
                     "children": [
-
+                        {"name": "Bolbitius demangei", "value": 1},
+                        {"name": "Bolbitius reticulatus", "value": 1},
+                        {"name": "Bolbitius titubans", "value": 1}
                     ]
                 },
                 {
                     "name": "Boletellus",
                     "children": [
-
+                        {"name": "Boletellus ananas", "value": 1},
+                        {"name": "Boletellus areolatus", "value": 1},
+                        {"name": "Boletellus aurocontextus", "value": 1},
+                        {"name": "Boletellus chrysenteroides", "value": 1},
+                        {"name": "Boletellus elatus", "value": 1},
+                        {"name": "Boletellus emodensis", "value": 1},
+                        {"name": "Boletellus obscurecoccineus", "value": 1},
+                        {"name": "Boletellus puniceus", "value": 1}
                     ]
                 },
                 {
                     "name": "Boletinellus",
                     "children": [
-
+                        {"name": "Boletinellus merulioides", "value": 1},
+                        {"name": "Boletinellus rompelii", "value": 1}
                     ]
                 },
                 {
                     "name": "Boletinus",
                     "children": [
-
+                        {"name": "Boletinus asiaticus", "value": 1},
+                        {"name": "Boletinus glandulosus", "value": 1},
+                        {"name": "Boletinus grisellus", "value": 1},
+                        {"name": "Boletinus punctatipes", "value": 1},
+                        {"name": "Boletinus spectabilis", "value": 1},
+                        {"name": "Boletinus subspectabilis", "value": 1}
                     ]
                 },
                 {
                     "name": "Boletopsis",
                     "children": [
-
+                        {"name": "Boletopsis grisea", "value": 1},
+                        {"name": "Boletopsis leucomelaena", "value": 1},
+                        {"name": "Boletopsis watlingii", "value": 1}
                     ]
                 },
                 {
                     "name": "Boletus",
                     "children": [
-
+                        {"name": "Boletus aereus", "value": 1},
+                        {"name": "Boletus alutaceus", "value": 1},
+                        {"name": "Boletus atkinsonii", "value": 1},
+                        {"name": "Boletus auripes", "value": 1},
+                        {"name": "Boletus bainiugan", "value": 1},
+                        {"name": "Boletus barrowsii", "value": 1},
+                        {"name": "Boletus bicolor", "value": 1},
+                        {"name": "Boletus bicoloroides", "value": 1},
+                        {"name": "Boletus botryoides", "value": 1},
+                        {"name": "Boletus bouriquetii", "value": 1},
+                        {"name": "Boletus brevitubus", "value": 1},
+                        {"name": "Boletus chilensis", "value": 1},
+                        {"name": "Boletus citrifragrans", "value": 1},
+                        {"name": "Boletus craspedius", "value": 1},
+                        {"name": "Boletus edulis", "value": 1},
+                        {"name": "Boletus fagacicola", "value": 1},
+                        {"name": "Boletus ferrugineus", "value": 1},
+                        {"name": "Boletus flammans", "value": 1},
+                        {"name": "Boletus griseiceps", "value": 1},
+                        {"name": "Boletus hiratsukae", "value": 1},
+                        {"name": "Boletus loyita", "value": 1},
+                        {"name": "Boletus luteoloincrustatus", "value": 1},
+                        {"name": "Boletus michoacanus", "value": 1},
+                        {"name": "Boletus monilifer", "value": 1},
+                        {"name": "Boletus nigromaculatus", "value": 1},
+                        {"name": "Boletus nigroviolaceus", "value": 1},
+                        {"name": "Boletus odaiensis", "value": 1},
+                        {"name": "Boletus orientialbus", "value": 1},
+                        {"name": "Boletus paluster", "value": 1},
+                        {"name": "Boletus paulae", "value": 1},
+                        {"name": "Boletus pinophilus", "value": 1},
+                        {"name": "Boletus pseudoloosii", "value": 1},
+                        {"name": "Boletus putidus", "value": 1},
+                        {"name": "Boletus reticulatus", "value": 1},
+                        {"name": "Boletus reticuloceps", "value": 1},
+                        {"name": "Boletus rugosellus", "value": 1},
+                        {"name": "Boletus sensibilis", "value": 1},
+                        {"name": "Boletus shiyong", "value": 1},
+                        {"name": "Boletus sinoedulis", "value": 1},
+                        {"name": "Boletus smithii", "value": 1},
+                        {"name": "Boletus speciosus", "value": 1},
+                        {"name": "Boletus spectabilissimus", "value": 1},
+                        {"name": "Boletus squamulistipes", "value": 1},
+                        {"name": "Boletus subtomentosus", "value": 1},
+                        {"name": "Boletus subvelutipes", "value": 1},
+                        {"name": "Boletus subviolaceofuscus", "value": 1},
+                        {"name": "Boletus tylopilopsis", "value": 1},
+                        {"name": "Boletus umbrinipileus", "value": 1},
+                        {"name": "Boletus umbriniporus", "value": 1},
+                        {"name": "Boletus variipes", "value": 1},
+                        {"name": "Boletus violaceofuscus", "value": 1},
+                        {"name": "Boletus viridis", "value": 1},
+                        {"name": "Boletus viscidiceps", "value": 1},
+                        {"name": "Boletus yunnanensis", "value": 1}
                     ]
                 },
                 {
