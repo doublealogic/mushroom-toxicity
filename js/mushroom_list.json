@@ -3903,158 +3903,243 @@
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Tyromyces",
                     "children": [
+                        {"name": "Tyromyces aquosus", "value": 1},
+                        {"name": "Tyromyces sambuceus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Umbilicaria",
                     "children": [
+                        {"name": "Umbilicaria esculenta", "value": 1},
+                        {"name": "Umbilicaria muhlenbergii", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Ustilago",
                     "children": [
+                        {"name": "Ustilago esculenta", "value": 1},
+                        {"name": "Ustilago maydis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Vascellum",
                     "children": [
+                        {"name": "Vascellum intermedium", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Veloporphyrellus",
                     "children": [
+                        {"name": "Veloporphyrellus velatus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Verpa",
                     "children": [
+                        {"name": "Verpa conica", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Volvaria",
                     "children": [
+                        {"name": "Volvaria pruinosa", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Volvariella",
                     "children": [
+                        {"name": "Volvariella bakeri", "value": 1},
+                        {"name": "Volvariella bombycina", "value": 1},
+                        {"name": "Volvariella diplasia", "value": 1},
+                        {"name": "Volvariella esculenta", "value": 1},
+                        {"name": "Volvariella parvispora", "value": 1},
+                        {"name": "Volvariella taylorii", "value": 1},
+                        {"name": "Volvariella terastia", "value": 1},
+                        {"name": "Volvariella volvacea", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Volvopluteus",
                     "children": [
+                        {"name": "Volvopluteus earlei", "value": 1},
+                        {"name": "Volvopluteus gloiocephalus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Wolfiporia",
                     "children": [
+                        {"name": "Wolfiporia cocos", "value": 1},
+                        {"name": "Wolfiporia extensa", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Wynnea",
                     "children": [
+                        {"name": "Wynnea americana", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Wynnella",
                     "children": [
+                        {"name": "Wynnella silvicola", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Xanthoconium",
                     "children": [
+                        {"name": "Xanthoconium affine", "value": 1},
+                        {"name": "Xanthoconium separans", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Xanthoporus",
                     "children": [
+                        {"name": "Xanthoporus syringae", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Xeroceps",
                     "children": [
+                        {"name": "Xeroceps skamania", "value": 1},
+                        {"name": "Xeroceps yunnanensis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Xerocomellus",
                     "children": [
+                        {"name": "Xerocomellus chrysenteron", "value": 1},
+                        {"name": "Xerocomellus cisalpinus", "value": 1},
+                        {"name": "Xerocomellus dryophilus", "value": 1},
+                        {"name": "Xerocomellus porosporus", "value": 1},
+                        {"name": "Xerocomellus pruinatus", "value": 1},
+                        {"name": "Xerocomellus ripariellus", "value": 1},
+                        {"name": "Xerocomellus truncatus", "value": 1},
+                        {"name": "Xerocomellus zelleri", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Xerocomus",
                     "children": [
+                        {"name": "Xerocomus illudens", "value": 1},
+                        {"name": "Xerocomus pallidiporus", "value": 1},
+                        {"name": "Xerocomus parvulus", "value": 1},
+                        {"name": "Xerocomus rubellus", "value": 1},
+                        {"name": "Xerocomus soyeri", "value": 1},
+                        {"name": "Xerocomus subspinulosus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Xeromphalina",
                     "children": [
+                        {"name": "Xeromphalina campanella", "value": 1},
+                        {"name": "Xeromphalina tenuipes", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Xerula",
                     "children": [
+                        {"name": "Xerula anombe", "value": 1},
+                        {"name": "Xerula oronga", "value": 1},
+                        {"name": "Xerula pudens", "value": 1},
+                        {"name": "Xerula sinopudens", "value": 1},
+                        {"name": "Xerula strigosa", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Xylaria",
                     "children": [
+                        {"name": "Xylaria polymorpha", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Zangia",
                     "children": [
+                        {"name": "Zangia roseola", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Zhuliangomyces",
                     "children": [
+                        {"name": "Zhuliangomyces illinitus", "value": 1},
+                        {"name": "Zhuliangomyces ochraceoluteus", "value": 1}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "E2: Edible With Conditions",
+            "children": [
+                {
+                    "name": "Agaricus",
+                    "children": [
+                        {"name": "Agaricus abruptibulbus", "value": 1},
+                        {"name": "Agaricus arvensis", "value": 1},
+                        {"name": "Agaricus subrutilescens", "value": 1},
+                        {"name": "Agaricus sylvicola", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Albatrellus",
                     "children": [
+                        {"name": "Albatrellus confluens", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Aleuria",
                     "children": [
+                        {"name": "Aleuria aurantia", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Amanita",
                     "children": [
+                        {"name": "Amanita battarrae", "value": 1},
+                        {"name": "Amanita ceciliae", "value": 1},
+                        {"name": "Amanita crocea", "value": 1},
+                        {"name": "Amanita excelsa", "value": 1},
+                        {"name": "Amanita fritillaria", "value": 1},
+                        {"name": "Amanita fulva", "value": 1},
+                        {"name": "Amanita pseudoporphyria", "value": 1},
+                        {"name": "Amanita rubescens", "value": 1},
+                        {"name": "Amanita sculpta", "value": 1},
+                        {"name": "Amanita submembranacea", "value": 1},
+                        {"name": "Amanita vaginata", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Ampulloclitocybe",
                     "children": [
+                        {"name": "Ampulloclitocybe clavipes", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Armillaria",
                     "children": [
+                        {"name": "Armillaria cepistipes", "value": 1},
+                        {"name": "Armillaria luteobubalina", "value": 1},
+                        {"name": "Armillaria mellea", "value": 1},
+                        {"name": "Armillaria novae-zelandiae", "value": 1},
+                        {"name": "Armillaria ostoyae", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Aspropaxillus",
                     "children": [
+                        {"name": "Aspropaxillus giganteus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Astraeus",
                     "children": [
+                        {"name": "Astraeus hygrometricus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Boletopsis",
                     "children": [
-                    ]
-                },
-                {
-                    "name": "Amylosporus",
-                    "children": [
+                        {"name": "Boletopsis leucomelaena", "value": 1}
                     ]
                 },
                 {
@@ -4242,11 +4327,6 @@
                     "children": [
                     ]
                 }
-            ]
-        },
-        {
-            "name": "E2: Edible With Conditions",
-            "children": [
 
             ]
         },
