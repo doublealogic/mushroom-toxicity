@@ -2037,7 +2037,6 @@
                         {"name": "Laetiporus miniatus", "value": 1},
                         {"name": "Laetiporus montanus", "value": 1},
                         {"name": "Laetiporus portentosus", "value": 1},
-                        {"name": "Laetiporus sulphureus", "value": 1},
                         {"name": "Laetiporus xinjiangensis", "value": 1},
                         {"name": "Laetiporus zonatus", "value": 1}
                     ]
@@ -2051,7 +2050,6 @@
                 {
                     "name": "Lanmaoa",
                     "children": [
-                        {"name": "Lanmaoa asiatica", "value": 1},
                         {"name": "Lanmaoa fragrans", "value": 1},
                         {"name": "Lanmaoa pseudosensibilis", "value": 1}
                     ]
@@ -2060,12 +2058,6 @@
                     "name": "Lanopila",
                     "children": [
                         {"name": "Lanopila nipponica", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Laternea",
-                    "children": [
-                        {"name": "Laternea columnata", "value": 1}
                     ]
                 },
                 {
@@ -2088,11 +2080,9 @@
                         {"name": "Leccinum duriusculum", "value": 1},
                         {"name": "Leccinum holopus", "value": 1},
                         {"name": "Leccinum insigne", "value": 1},
-                        {"name": "Leccinum intusrubens", "value": 1},
                         {"name": "Leccinum manzanitae", "value": 1},
                         {"name": "Leccinum rubropunctum", "value": 1},
                         {"name": "Leccinum rugosiceps", "value": 1},
-                        {"name": "Leccinum scabrum", "value": 1},
                         {"name": "Leccinum schistophilum", "value": 1},
                         {"name": "Leccinum subradicatum", "value": 1},
                         {"name": "Leccinum variicolor", "value": 1},
@@ -2117,11 +2107,9 @@
                 {
                     "name": "Lentinula",
                     "children": [
-                        {"name": "Lentinula aciculospora", "value": 1},
                         {"name": "Lentinula boryana", "value": 1},
                         {"name": "Lentinula edodes", "value": 1},
                         {"name": "Lentinula lateritia", "value": 1},
-                        {"name": "Lentinula novae-zelandiae", "value": 1},
                         {"name": "Lentinula raphanica", "value": 1}
                     ]
                 },
@@ -2135,7 +2123,6 @@
                         {"name": "Lentinus brumalis", "value": 1},
                         {"name": "Lentinus brunneofloccosus", "value": 1},
                         {"name": "Lentinus cladopus", "value": 1},
-                        {"name": "Lentinus concavus", "value": 1},
                         {"name": "Lentinus connatus", "value": 1},
                         {"name": "Lentinus crinitus", "value": 1},
                         {"name": "Lentinus dicholamellatus", "value": 1},
@@ -2162,39 +2149,16 @@
                     ]
                 },
                 {
-                    "name": "Lenzites",
-                    "children": [
-                        {"name": "Lenzites betulinus", "value": 1},
-                        {"name": "Lenzites styracinus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Leotia",
-                    "children": [
-                        {"name": "Leotia chlorocephala", "value": 1},
-                        {"name": "Leotia lubrica", "value": 1},
-                        {"name": "Leotia stipitata", "value": 1}
-                    ]
-                },
-                {
                     "name": "Lepiota",
                     "children": [
                         {"name": "Lepiota aurantioflava", "value": 1},
-                        {"name": "Lepiota candida", "value": 1},
                         {"name": "Lepiota cinnamomea", "value": 1},
-                        {"name": "Lepiota clypeolaria", "value": 1},
-                        {"name": "Lepiota cristata", "value": 1},
                         {"name": "Lepiota discipes", "value": 1},
                         {"name": "Lepiota erminea", "value": 1},
-                        {"name": "Lepiota fusciceps", "value": 1},
                         {"name": "Lepiota grassei", "value": 1},
                         {"name": "Lepiota henningsii", "value": 1},
-                        {"name": "Lepiota lilacea", "value": 1},
                         {"name": "Lepiota madirokelensis", "value": 1},
                         {"name": "Lepiota magnispora", "value": 1},
-                        {"name": "Lepiota praetervisa", "value": 1},
-                        {"name": "Lepiota pseudogranulosa", "value": 1},
-                        {"name": "Lepiota rabarijaonae", "value": 1},
                         {"name": "Lepiota subcitrophylla", "value": 1}
                     ]
                 },
@@ -2202,24 +2166,16 @@
                     "name": "Lepista",
                     "children": [
                         {"name": "Lepista amara", "value": 1},
-                        {"name": "Lepista caffrorum", "value": 1},
                         {"name": "Lepista diemii", "value": 1},
                         {"name": "Lepista fibrosissima", "value": 1},
                         {"name": "Lepista glaucocana", "value": 1},
                         {"name": "Lepista graveolens", "value": 1},
                         {"name": "Lepista irina", "value": 1},
-                        {"name": "Lepista nuda", "value": 1},
                         {"name": "Lepista ovispora", "value": 1},
                         {"name": "Lepista panaeolus", "value": 1},
                         {"name": "Lepista personata", "value": 1},
                         {"name": "Lepista sordida", "value": 1},
                         {"name": "Lepista tarda", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Leratiomyces",
-                    "children": [
-                        {"name": "Leratiomyces squamosus", "value": 1}
                     ]
                 },
                 {
@@ -2231,16 +2187,12 @@
                 {
                     "name": "Leucoagaricus",
                     "children": [
-                        {"name": "Leucoagaricus americanus", "value": 1},
-                        {"name": "Leucoagaricus badhamii", "value": 1},
                         {"name": "Leucoagaricus bisporus", "value": 1},
                         {"name": "Leucoagaricus goossensiae", "value": 1},
                         {"name": "Leucoagaricus leucothites", "value": 1},
                         {"name": "Leucoagaricus nympharum", "value": 1},
                         {"name": "Leucoagaricus purpureolilacinus", "value": 1},
-                        {"name": "Leucoagaricus rhodocephalus", "value": 1},
-                        {"name": "Leucoagaricus roseoalbus", "value": 1},
-                        {"name": "Leucoagaricus rubrotinctus", "value": 1}
+                        {"name": "Leucoagaricus rhodocephalus", "value": 1}
                     ]
                 },
                 {
@@ -2252,14 +2204,10 @@
                 {
                     "name": "Leucocoprinus",
                     "children": [
-                        {"name": "Leucocoprinus birnbaumii", "value": 1},
-                        {"name": "Leucocoprinus cepistipes", "value": 1},
                         {"name": "Leucocoprinus discoideus", "value": 1},
-                        {"name": "Leucocoprinus fragilissimus", "value": 1},
                         {"name": "Leucocoprinus gandour", "value": 1},
                         {"name": "Leucocoprinus imerinensis", "value": 1},
                         {"name": "Leucocoprinus nanianae", "value": 1},
-                        {"name": "Leucocoprinus subglobisporus", "value": 1},
                         {"name": "Leucocoprinus tanetensis", "value": 1}
                     ]
                 },
@@ -2272,7 +2220,6 @@
                 {
                     "name": "Leucocybe",
                     "children": [
-                        {"name": "Leucocybe connata", "value": 1},
                         {"name": "Leucocybe houghtonii", "value": 1}
                     ]
                 },
@@ -2292,12 +2239,6 @@
                     ]
                 },
                 {
-                    "name": "Lignosus",
-                    "children": [
-                        {"name": "Lignosus rhinocerus", "value": 1}
-                    ]
-                },
-                {
                     "name": "Limacella",
                     "children": [
                         {"name": "Limacella delicata", "value": 1}
@@ -2310,11 +2251,6 @@
                     ]
                 },
                 {
-                    "name": "Lopharia",
-                    "children": [{"name": "Lopharia cinerascens", "value": 1}
-                    ]
-                },
-                {
                     "name": "Lycoperdon",
                     "children": [
                         {"name": "Lycoperdon asperum", "value": 1},
@@ -2322,27 +2258,17 @@
                         {"name": "Lycoperdon candidum", "value": 1},
                         {"name": "Lycoperdon caudatum", "value": 1},
                         {"name": "Lycoperdon curtisii", "value": 1},
-                        {"name": "Lycoperdon echinatum", "value": 1},
                         {"name": "Lycoperdon endotephrum", "value": 1},
                         {"name": "Lycoperdon ericaeum", "value": 1},
-                        {"name": "Lycoperdon excipuliforme", "value": 1},
                         {"name": "Lycoperdon floccosum", "value": 1},
                         {"name": "Lycoperdon fuscum", "value": 1},
                         {"name": "Lycoperdon glabrescens", "value": 1},
-                        {"name": "Lycoperdon lividum", "value": 1},
                         {"name": "Lycoperdon mammiforme", "value": 1},
                         {"name": "Lycoperdon marginatum", "value": 1},
-                        {"name": "Lycoperdon molle", "value": 1},
                         {"name": "Lycoperdon muscorum", "value": 1},
-                        {"name": "Lycoperdon nigrescens", "value": 1},
-                        {"name": "Lycoperdon perlatum", "value": 1},
-                        {"name": "Lycoperdon pratense", "value": 1},
                         {"name": "Lycoperdon qudenii", "value": 1},
-                        {"name": "Lycoperdon radicatum", "value": 1},
                         {"name": "Lycoperdon rimulatum", "value": 1},
-                        {"name": "Lycoperdon spadiceum", "value": 1},
-                        {"name": "Lycoperdon subincarnatum", "value": 1},
-                        {"name": "Lycoperdon umbrinum", "value": 1}
+                        {"name": "Lycoperdon subincarnatum", "value": 1}
                     ]
                 },
                 {
@@ -2360,14 +2286,6 @@
                     ]
                 },
                 {
-                    "name": "Lysurus",
-                    "children": [
-                        {"name": "Lysurus arachnoideus", "value": 1},
-                        {"name": "Lysurus mokusin", "value": 1},
-                        {"name": "Lysurus periphragmoides", "value": 1}
-                    ]
-                },
-                {
                     "name": "Mackintoshia",
                     "children": [
                         {"name": "Mackintoshia persica", "value": 1}
@@ -2380,14 +2298,7 @@
                         {"name": "Macrocybe gigantea", "value": 1},
                         {"name": "Macrocybe lobayensis", "value": 1},
                         {"name": "Macrocybe praegrandis", "value": 1},
-                        {"name": "Macrocybe spectabilis", "value": 1},
                         {"name": "Macrocybe titans", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Macrocystidia",
-                    "children": [
-                        {"name": "Macrocystidia cucumis", "value": 1}
                     ]
                 },
                 {
@@ -2404,7 +2315,6 @@
                         {"name": "Macrolepiota kerandi", "value": 1},
                         {"name": "Macrolepiota mastoidea", "value": 1},
                         {"name": "Macrolepiota permixta", "value": 1},
-                        {"name": "Macrolepiota procera", "value": 1},
                         {"name": "Macrolepiota prominens", "value": 1},
                         {"name": "Macrolepiota rubescens", "value": 1},
                         {"name": "Macrolepiota subcitrophylla", "value": 1},
@@ -2421,8 +2331,6 @@
                 {
                     "name": "Marasmiellus",
                     "children": [
-                        {"name": "Marasmiellus candidus", "value": 1},
-                        {"name": "Marasmiellus chamaecyparidis", "value": 1},
                         {"name": "Marasmiellus confluens", "value": 1},
                         {"name": "Marasmiellus luxurians", "value": 1},
                         {"name": "Marasmiellus peronatus", "value": 1},
@@ -2441,7 +2349,6 @@
                         {"name": "Marasmius cladophyllus", "value": 1},
                         {"name": "Marasmius cohaerens", "value": 1},
                         {"name": "Marasmius crinis-equi", "value": 1},
-                        {"name": "Marasmius graminum", "value": 1},
                         {"name": "Marasmius grandisetulosus", "value": 1},
                         {"name": "Marasmius haematocephalus", "value": 1},
                         {"name": "Marasmius heinemannianus", "value": 1},
@@ -2452,9 +2359,7 @@
                         {"name": "Marasmius pampicola", "value": 1},
                         {"name": "Marasmius personatus", "value": 1},
                         {"name": "Marasmius piperodora", "value": 1},
-                        {"name": "Marasmius pulcherripes", "value": 1},
                         {"name": "Marasmius purpureostriatus", "value": 1},
-                        {"name": "Marasmius siccus", "value": 1},
                         {"name": "Marasmius wynneae", "value": 1},
                         {"name": "Marasmius zenkeri", "value": 1}
                     ]
@@ -2469,22 +2374,14 @@
                 {
                     "name": "Megacollybia",
                     "children": [
-                        {"name": "Megacollybia clitocyboidea", "value": 1},
-                        {"name": "Megacollybia platyphylla", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Meiorganum",
-                    "children": [
-                        {"name": "Meiorganum curtisii", "value": 1}
+                        {"name": "Megacollybia clitocyboidea", "value": 1}
                     ]
                 },
                 {
                     "name": "Melanogaster",
                     "children": [
                         {"name": "Melanogaster ambiguus", "value": 1},
-                        {"name": "Melanogaster durissimus", "value": 1},
-                        {"name": "Melanogaster intermedius", "value": 1}
+                        {"name": "Melanogaster durissimus", "value": 1}
                     ]
                 },
                 {
@@ -2509,46 +2406,10 @@
                     ]
                 },
                 {
-                    "name": "Melastiza",
-                    "children": [
-                        {"name": "Melastiza chateri", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Meripilus",
-                    "children": [
-                        {"name": "Meripilus giganteus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Mesophellia",
-                    "children": [
-                        {"name": "Mesophellia trabalis", "value": 1}
-                    ]
-                },
-                {
                     "name": "Metacordyceps",
                     "children": [
                         {"name": "Metacordyceps liangshanensis", "value": 1},
                         {"name": "Metacordyceps neogunnii", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Metarhizium",
-                    "children": [
-                        {"name": "Metarhizium atrovirens", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Metuloidea",
-                    "children": [
-                        {"name": "Metuloidea murashkinskyi", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Microglossum",
-                    "children": [
-                        {"name": "Microglossum rufum", "value": 1}
                     ]
                 },
                 {
@@ -2565,19 +2426,6 @@
                     ]
                 },
                 {
-                    "name": "Microstoma",
-                    "children": [
-                        {"name": "Microstoma aggregatum", "value": 1},
-                        {"name": "Microstoma floccosum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Mitrula",
-                    "children": [
-                        {"name": "Mitrula paludosa", "value": 1}
-                    ]
-                },
-                {
                     "name": "Montagnea",
                     "children": [
                         {"name": "Montagnea arenaria", "value": 1}
@@ -2586,14 +2434,10 @@
                 {
                     "name": "Morchella",
                     "children": [
-                        {"name": "Morchella angusticeps", "value": 1},
                         {"name": "Morchella brunnea", "value": 1},
                         {"name": "Morchella continua", "value": 1},
-                        {"name": "Morchella costata", "value": 1},
                         {"name": "Morchella crassipes", "value": 1},
                         {"name": "Morchella deliciosa", "value": 1},
-                        {"name": "Morchella elata", "value": 1},
-                        {"name": "Morchella esculenta", "value": 1},
                         {"name": "Morchella gigas", "value": 1},
                         {"name": "Morchella guatemalensis", "value": 1},
                         {"name": "Morchella importuna", "value": 1},
@@ -2601,7 +2445,6 @@
                         {"name": "Morchella miyabeana", "value": 1},
                         {"name": "Morchella purpurascens", "value": 1},
                         {"name": "Morchella rufobrunnea", "value": 1},
-                        {"name": "Morchella semilibera", "value": 1},
                         {"name": "Morchella septimelata", "value": 1},
                         {"name": "Morchella sextelata", "value": 1},
                         {"name": "Morchella smithiana", "value": 1},
@@ -2626,56 +2469,24 @@
                 {
                     "name": "Multiclavula",
                     "children": [
-                        {"name": "Multiclavula clara", "value": 1},
                         {"name": "Multiclavula mucida", "value": 1}
                     ]
                 },
                 {
-                    "name": "Mutinus",
-                    "children": [
-                        {"name": "Mutinus bambusinus", "value": 1},
-                        {"name": "Mutinus borneensis", "value": 1},
-                        {"name": "Mutinus caninus", "value": 1}
-                    ]
-                },
-                {
                     "name": "Mycena",
-                    "children": [
-                        {"name": "Mycena acicula", "value": 1},
-                        {"name": "Mycena arundinarialis", "value": 1},
-                        {"name": "Mycena aschi", "value": 1},
+                    "children": [{"name": "Mycena aschi", "value": 1},
                         {"name": "Mycena bipindiensis", "value": 1},
-                        {"name": "Mycena chlorophos", "value": 1},
-                        {"name": "Mycena crocata", "value": 1},
-                        {"name": "Mycena epipterygia", "value": 1},
-                        {"name": "Mycena filopes", "value": 1},
                         {"name": "Mycena flavescens", "value": 1},
                         {"name": "Mycena fragillima", "value": 1},
                         {"name": "Mycena galericulata", "value": 1},
                         {"name": "Mycena galopus", "value": 1},
-                        {"name": "Mycena haematopus", "value": 1},
-                        {"name": "Mycena laevigata", "value": 1},
-                        {"name": "Mycena leaiana", "value": 1},
-                        {"name": "Mycena luteopallens", "value": 1},
-                        {"name": "Mycena lux-coeli", "value": 1},
-                        {"name": "Mycena polygramma", "value": 1},
-                        {"name": "Mycena pterigena", "value": 1},
-                        {"name": "Mycena pura", "value": 1},
-                        {"name": "Mycena sanguinolenta", "value": 1},
-                        {"name": "Mycena silvae-nigrae", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Mycenastrum",
-                    "children": [
-                        {"name": "Mycenastrum corium", "value": 1}
+                        {"name": "Mycena pterigena", "value": 1}
                     ]
                 },
                 {
                     "name": "Mycetinis",
                     "children": [
                         {"name": "Mycetinis alliaceus", "value": 1},
-                        {"name": "Mycetinis prasiosmus", "value": 1},
                         {"name": "Mycetinis scorodonius", "value": 1}
                     ]
                 },
@@ -2711,24 +2522,11 @@
                     ]
                 },
                 {
-                    "name": "Neoantrodiella",
-                    "children": [
-                        {"name": "Neoantrodiella gypsea", "value": 1}
-                    ]
-                },
-                {
                     "name": "Neoboletus",
                     "children": [
-                        {"name": "Neoboletus erythropus", "value": 1},
                         {"name": "Neoboletus luridiformis", "value": 1},
                         {"name": "Neoboletus obscureumbrinus", "value": 1},
                         {"name": "Neoboletus rubriporus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Neobulgaria",
-                    "children": [
-                        {"name": "Neobulgaria pura", "value": 1}
                     ]
                 },
                 {
@@ -2741,7 +2539,6 @@
                     "name": "Neofavolus",
                     "children": [
                         {"name": "Neofavolus alveolaris", "value": 1},
-                        {"name": "Neofavolus suavissimus", "value": 1},
                         {"name": "Neofavolus subpurpurascens", "value": 1}
                     ]
                 },
@@ -2761,45 +2558,9 @@
                     ]
                 },
                 {
-                    "name": "Nidula",
-                    "children": [
-                        {"name": "Nidula niveotomentosa", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Nigrofomes",
-                    "children": [
-                        {"name": "Nigrofomes melanoporus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Nigroporus",
-                    "children": [
-                        {"name": "Nigroporus vinosus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Niveoporofomes",
-                    "children": [
-                        {"name": "Niveoporofomes spraguei", "value": 1}
-                    ]
-                },
-                {
                     "name": "Nothopanus",
                     "children": [
                         {"name": "Nothopanus eugrammus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Octaviania",
-                    "children": [
-                        {"name": "Octaviania asterosperma", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Omphalotus",
-                    "children": [
-                        {"name": "Omphalotus olearius", "value": 1}
                     ]
                 },
                 {
@@ -2817,38 +2578,11 @@
                 {
                     "name": "Ophiocordyceps",
                     "children": [
-                        {"name": "Ophiocordyceps annulata", "value": 1},
-                        {"name": "Ophiocordyceps cicadellidicola", "value": 1},
                         {"name": "Ophiocordyceps cicadicola", "value": 1},
-                        {"name": "Ophiocordyceps clavata", "value": 1},
-                        {"name": "Ophiocordyceps coccidiicola", "value": 1},
-                        {"name": "Ophiocordyceps crinalis", "value": 1},
-                        {"name": "Ophiocordyceps discoideicapitata", "value": 1},
-                        {"name": "Ophiocordyceps entomorrhiza", "value": 1},
-                        {"name": "Ophiocordyceps ferruginosa", "value": 1},
-                        {"name": "Ophiocordyceps gracilioides", "value": 1},
-                        {"name": "Ophiocordyceps heteropoda", "value": 1},
-                        {"name": "Ophiocordyceps japonensis", "value": 1},
                         {"name": "Ophiocordyceps longissima", "value": 1},
-                        {"name": "Ophiocordyceps macularis", "value": 1},
                         {"name": "Ophiocordyceps melolonthae", "value": 1},
-                        {"name": "Ophiocordyceps michiganensis", "value": 1},
-                        {"name": "Ophiocordyceps neovolkiana", "value": 1},
-                        {"name": "Ophiocordyceps nigripoda", "value": 1},
-                        {"name": "Ophiocordyceps nutans", "value": 1},
-                        {"name": "Ophiocordyceps purpureostromata", "value": 1},
                         {"name": "Ophiocordyceps sinensis", "value": 1},
-                        {"name": "Ophiocordyceps sobolifera", "value": 1},
-                        {"name": "Ophiocordyceps sphecocephala", "value": 1},
-                        {"name": "Ophiocordyceps stylophora", "value": 1},
-                        {"name": "Ophiocordyceps tricentri", "value": 1},
-                        {"name": "Ophiocordyceps yakusimensis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Orbilia",
-                    "children": [
-                        {"name": "Orbilia xanthostigma", "value": 1}
+                        {"name": "Ophiocordyceps sobolifera", "value": 1}
                     ]
                 },
                 {
@@ -2860,14 +2594,12 @@
                 {
                     "name": "Osteina",
                     "children": [
-                        {"name": "Osteina obducta", "value": 1},
-                        {"name": "Osteina undosa", "value": 1}
+                        {"name": "Osteina obducta", "value": 1}
                     ]
                 },
                 {
                     "name": "Otidea",
                     "children": [
-                        {"name": "Otidea cantharella", "value": 1},
                         {"name": "Otidea cochleata", "value": 1},
                         {"name": "Otidea leporina", "value": 1},
                         {"name": "Otidea onotica", "value": 1}
@@ -2885,20 +2617,6 @@
                     ]
                 },
                 {
-                    "name": "Oxyporus",
-                    "children": [
-                        {"name": "Oxyporus cuneatus", "value": 1},
-                        {"name": "Oxyporus populinus", "value": 1},
-                        {"name": "Oxyporus ravidus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pachyella",
-                    "children": [
-                        {"name": "Pachyella clypeata", "value": 1}
-                    ]
-                },
-                {
                     "name": "Pachyma",
                     "children": [
                         {"name": "Pachyma hoelen", "value": 1}
@@ -2907,8 +2625,7 @@
                 {
                     "name": "Panaeolus",
                     "children": [
-                        {"name": "Panaeolus antillarum", "value": 1},
-                        {"name": "Panaeolus solidipes", "value": 1}
+                        {"name": "Panaeolus antillarum", "value": 1}
                     ]
                 },
                 {
@@ -2940,7 +2657,6 @@
                     "name": "Parasola",
                     "children": [
                         {"name": "Parasola conopilea", "value": 1},
-                        {"name": "Parasola leiocephala", "value": 1},
                         {"name": "Parasola plicatilis", "value": 1}
                     ]
                 },
@@ -2958,63 +2674,11 @@
                     ]
                 },
                 {
-                    "name": "Parvixerocomus",
-                    "children": [
-                        {"name": "Parvixerocomus aokii", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Paxillus",
-                    "children": [
-                        {"name": "Paxillus involutus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Penicilliopsis",
-                    "children": [
-                        {"name": "Penicilliopsis clavariiformis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Peniophora",
-                    "children": [
-                        {"name": "Peniophora quercina", "value": 1},
-                        {"name": "Peniophora versiformis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Peniophorella",
-                    "children": [
-                        {"name": "Peniophorella odontiiformis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Penttilamyces",
-                    "children": [
-                        {"name": "Penttilamyces olivascens", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Perenniporia",
-                    "children": [
-                        {"name": "Perenniporia fraxinea", "value": 1},
-                        {"name": "Perenniporia ochroleuca", "value": 1},
-                        {"name": "Perenniporia subacida", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Perenniporiopsis",
-                    "children": [
-                        {"name": "Perenniporiopsis minutissima", "value": 1}
-                    ]
-                },
-                {
                     "name": "Peziza",
                     "children": [
                         {"name": "Peziza arvernensis", "value": 1},
                         {"name": "Peziza badia", "value": 1},
                         {"name": "Peziza cerea", "value": 1},
-                        {"name": "Peziza domiciliana", "value": 1},
                         {"name": "Peziza repanda", "value": 1},
                         {"name": "Peziza vesiculosa", "value": 1}
                     ]
@@ -3029,25 +2693,6 @@
                         {"name": "Phaeoclavulina longicaulis", "value": 1},
                         {"name": "Phaeoclavulina myceliosa", "value": 1},
                         {"name": "Phaeoclavulina ochracea", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Phaeocollybia",
-                    "children": [
-                        {"name": "Phaeocollybia christinae", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Phaeolepiota",
-                    "children": [
-                        {"name": "Phaeolepiota aurea", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Phaeolus",
-                    "children": [
-                        {"name": "Phaeolus manihotis", "value": 1},
-                        {"name": "Phaeolus schweinitzii", "value": 1}
                     ]
                 },
                 {
@@ -3067,39 +2712,20 @@
                 {
                     "name": "Phallus",
                     "children": [
-                        {"name": "Phallus armeniacus", "value": 1},
                         {"name": "Phallus echinovolvatus", "value": 1},
                         {"name": "Phallus fragrans", "value": 1},
                         {"name": "Phallus fuscoechinovolvatus", "value": 1},
                         {"name": "Phallus hadriani", "value": 1},
-                        {"name": "Phallus impudicus", "value": 1},
                         {"name": "Phallus indusiatus", "value": 1},
                         {"name": "Phallus luteus", "value": 1},
                         {"name": "Phallus rubrovolvatus", "value": 1},
-                        {"name": "Phallus rugulosus", "value": 1},
-                        {"name": "Phallus tenuis", "value": 1},
                         {"name": "Phallus ultraduplicatus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Phanerochaete",
-                    "children": [
-                        {"name": "Phanerochaete sordida", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Phellinopsis",
-                    "children": [
-                        {"name": "Phellinopsis conchata", "value": 1}
                     ]
                 },
                 {
                     "name": "Phellinus",
                     "children": [
-                        {"name": "Phellinus gilvus", "value": 1},
                         {"name": "Phellinus igniarius", "value": 1},
-                        {"name": "Phellinus laevigatus", "value": 1},
-                        {"name": "Phellinus pini", "value": 1},
                         {"name": "Phellinus rimosus", "value": 1}
                     ]
                 },
@@ -3125,24 +2751,9 @@
                     ]
                 },
                 {
-                    "name": "Phlebia",
-                    "children": [
-                        {"name": "Phlebia coccineofulva", "value": 1},
-                        {"name": "Phlebia radiata", "value": 1},
-                        {"name": "Phlebia tremellosa", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Phlebiopsis",
-                    "children": [
-                        {"name": "Phlebiopsis crassa", "value": 1}
-                    ]
-                },
-                {
                     "name": "Phlebopus",
                     "children": [
                         {"name": "Phlebopus bruchii", "value": 1},
-                        {"name": "Phlebopus colossus", "value": 1},
                         {"name": "Phlebopus marginatus", "value": 1},
                         {"name": "Phlebopus portentosus", "value": 1},
                         {"name": "Phlebopus sudanicus", "value": 1}
@@ -3157,30 +2768,22 @@
                         {"name": "Pholiota austrospumosa", "value": 1},
                         {"name": "Pholiota bicolor", "value": 1},
                         {"name": "Pholiota brunnescens", "value": 1},
-                        {"name": "Pholiota carbonaria", "value": 1},
                         {"name": "Pholiota dinghuensis", "value": 1},
-                        {"name": "Pholiota flammans", "value": 1},
                         {"name": "Pholiota gummosa", "value": 1},
                         {"name": "Pholiota johnsoniana", "value": 1},
                         {"name": "Pholiota lenta", "value": 1},
-                        {"name": "Pholiota lubrica", "value": 1},
-                        {"name": "Pholiota malicola", "value": 1},
                         {"name": "Pholiota microspora", "value": 1},
                         {"name": "Pholiota nameko", "value": 1},
                         {"name": "Pholiota populnea", "value": 1},
                         {"name": "Pholiota pseudosiparia", "value": 1},
                         {"name": "Pholiota pudica", "value": 1},
                         {"name": "Pholiota spumosa", "value": 1},
-                        {"name": "Pholiota squarrosa", "value": 1},
-                        {"name": "Pholiota squarrosoides", "value": 1},
-                        {"name": "Pholiota terrestris", "value": 1},
                         {"name": "Pholiota virescens", "value": 1}
                     ]
                 },
                 {
                     "name": "Phylloporus",
                     "children": [
-                        {"name": "Phylloporus bellus", "value": 1},
                         {"name": "Phylloporus brunneiceps", "value": 1},
                         {"name": "Phylloporus imbricatus", "value": 1},
                         {"name": "Phylloporus incarnatus", "value": 1},
@@ -3216,28 +2819,9 @@
                     ]
                 },
                 {
-                    "name": "Piptoporellus",
-                    "children": [
-                        {"name": "Piptoporellus soloniensis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pisolithus",
-                    "children": [
-                        {"name": "Pisolithus arhizus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pistillaria",
-                    "children": [
-                        {"name": "Pistillaria petasitis", "value": 1}
-                    ]
-                },
-                {
                     "name": "Plectania",
                     "children": [
-                        {"name": "Plectania chilensis", "value": 1},
-                        {"name": "Plectania modesta", "value": 1}
+                        {"name": "Plectania chilensis", "value": 1}
                     ]
                 },
                 {
@@ -3261,7 +2845,6 @@
                         {"name": "Pleurotus calyptratus", "value": 1},
                         {"name": "Pleurotus canus", "value": 1},
                         {"name": "Pleurotus citrinopileatus", "value": 1},
-                        {"name": "Pleurotus columbinus", "value": 1},
                         {"name": "Pleurotus cornucopiae", "value": 1},
                         {"name": "Pleurotus cystidiosus", "value": 1},
                         {"name": "Pleurotus djamor", "value": 1},
@@ -3308,7 +2891,6 @@
                         {"name": "Pluteus leoninus", "value": 1},
                         {"name": "Pluteus longistriatus", "value": 1},
                         {"name": "Pluteus losulus", "value": 1},
-                        {"name": "Pluteus pantherinus", "value": 1},
                         {"name": "Pluteus pellitus", "value": 1},
                         {"name": "Pluteus petasatus", "value": 1},
                         {"name": "Pluteus plautus", "value": 1},
@@ -3316,16 +2898,8 @@
                         {"name": "Pluteus salicinus", "value": 1},
                         {"name": "Pluteus spegazzinianus", "value": 1},
                         {"name": "Pluteus subcervinus", "value": 1},
-                        {"name": "Pluteus thomsonii", "value": 1},
                         {"name": "Pluteus tomentosulus", "value": 1},
                         {"name": "Pluteus umbrosus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Podaxis",
-                    "children": [
-                        {"name": "Podaxis carcinomalis", "value": 1},
-                        {"name": "Podaxis pistillaris", "value": 1}
                     ]
                 },
                 {
@@ -3334,12 +2908,6 @@
                         {"name": "Podoscypha brasiliensis", "value": 1},
                         {"name": "Podoscypha nitidula", "value": 1},
                         {"name": "Podoscypha venustula", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Podoserpula",
-                    "children": [
-                        {"name": "Podoserpula pusio", "value": 1}
                     ]
                 },
                 {
@@ -3352,7 +2920,6 @@
                 {
                     "name": "Podostroma",
                     "children": [
-                        {"name": "Podostroma giganteum", "value": 1},
                         {"name": "Podostroma grossum", "value": 1}
                     ]
                 },
@@ -3365,19 +2932,9 @@
                 {
                     "name": "Polyporus",
                     "children": [
-                        {"name": "Polyporus australiensis", "value": 1},
-                        {"name": "Polyporus croceoleucus", "value": 1},
                         {"name": "Polyporus indigenus", "value": 1},
                         {"name": "Polyporus pes-simiae", "value": 1},
-                        {"name": "Polyporus rugulosus", "value": 1},
                         {"name": "Polyporus sapurema", "value": 1},
-                        {"name": "Polyporus tuberaster", "value": 1},
-                        {"name": "Polyporus umbellatus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Polypus",
-                    "children": [
                         {"name": "Polypus dispansus", "value": 1}
                     ]
                 },
@@ -3388,30 +2945,10 @@
                     ]
                 },
                 {
-                    "name": "Porodisculus",
-                    "children": [
-                        {"name": "Porodisculus pendulus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Poronidulus",
-                    "children": [
-                        {"name": "Poronidulus conchifer", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Porostereum",
-                    "children": [
-                        {"name": "Porostereum spadiceum", "value": 1}
-                    ]
-                },
-                {
                     "name": "Porphyrellus",
                     "children": [
-                        {"name": "Porphyrellus fumosipes", "value": 1},
                         {"name": "Porphyrellus indecisus", "value": 1},
-                        {"name": "Porphyrellus nigropurpureus", "value": 1},
-                        {"name": "Porphyrellus porphyrosporus", "value": 1}
+                        {"name": "Porphyrellus nigropurpureus", "value": 1}
                     ]
                 },
                 {
@@ -3427,46 +2964,23 @@
                     ]
                 },
                 {
-                    "name": "Propolis",
-                    "children": [
-                        {"name": "Propolis farinosa", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Protostropharia",
-                    "children": [
-                        {"name": "Protostropharia semiglobata", "value": 1}
-                    ]
-                },
-                {
                     "name": "Psathyrella",
                     "children": [
                         {"name": "Psathyrella artemisiae", "value": 1},
-                        {"name": "Psathyrella atroumbonata", "value": 1},
                         {"name": "Psathyrella bipellis", "value": 1},
                         {"name": "Psathyrella candolleana", "value": 1},
                         {"name": "Psathyrella coprinoceps", "value": 1},
-                        {"name": "Psathyrella corrugis", "value": 1},
                         {"name": "Psathyrella hymenocephala", "value": 1},
                         {"name": "Psathyrella microsporoides", "value": 1},
-                        {"name": "Psathyrella multissima", "value": 1},
                         {"name": "Psathyrella ovaticystis", "value": 1},
-                        {"name": "Psathyrella piluliformis", "value": 1},
                         {"name": "Psathyrella rugocephala", "value": 1},
                         {"name": "Psathyrella spadiceogrisea", "value": 1},
                         {"name": "Psathyrella tuberculata", "value": 1}
                     ]
                 },
                 {
-                    "name": "Pseudoaustroboletus",
-                    "children": [
-                        {"name": "Pseudoaustroboletus valens", "value": 1}
-                    ]
-                },
-                {
                     "name": "Pseudoboletus",
                     "children": [
-                        {"name": "Pseudoboletus astraeicola", "value": 1},
                         {"name": "Pseudoboletus parasiticus", "value": 1}
                     ]
                 },
@@ -3492,12 +3006,6 @@
                     ]
                 },
                 {
-                    "name": "Pseudofavolus",
-                    "children": [
-                        {"name": "Pseudofavolus tenuis", "value": 1}
-                    ]
-                },
-                {
                     "name": "Pseudofistulina",
                     "children": [
                         {"name": "Pseudofistulina radicata", "value": 1}
@@ -3516,37 +3024,6 @@
                     ]
                 },
                 {
-                    "name": "Pseudoinonotus",
-                    "children": [
-                        {"name": "Pseudoinonotus dryadeus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pseudomerulius",
-                    "children": [
-                        {"name": "Pseudomerulius aureus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pseudoplectania",
-                    "children": [
-                        {"name": "Pseudoplectania melaena", "value": 1},
-                        {"name": "Pseudoplectania nigrella", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pseudosperma",
-                    "children": [
-                        {"name": "Pseudosperma squamatum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pseudotulostoma",
-                    "children": [
-                        {"name": "Pseudotulostoma japonicum", "value": 1}
-                    ]
-                },
-                {
                     "name": "Psiloboletinus",
                     "children": [
                         {"name": "Psiloboletinus lariceti", "value": 1}
@@ -3555,14 +3032,7 @@
                 {
                     "name": "Psilocybe",
                     "children": [
-                        {"name": "Psilocybe coronilla", "value": 1},
                         {"name": "Psilocybe zapotecorum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pterula",
-                    "children": [
-                        {"name": "Pterula subulata", "value": 1}
                     ]
                 },
                 {
@@ -3570,7 +3040,6 @@
                     "children": [
                         {"name": "Pulveroboletus aberrans", "value": 1},
                         {"name": "Pulveroboletus ravenelii", "value": 1},
-                        {"name": "Pulveroboletus sinapicolor", "value": 1},
                         {"name": "Pulveroboletus trinitensis", "value": 1}
                     ]
                 },
@@ -3581,29 +3050,10 @@
                     ]
                 },
                 {
-                    "name": "Purpureocillium",
-                    "children": [
-                        {"name": "Purpureocillium atypicola", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pycnoporellus",
-                    "children": [
-                        {"name": "Pycnoporellus fulgens", "value": 1}
-                    ]
-                },
-                {
                     "name": "Pycnoporus",
                     "children": [
                         {"name": "Pycnoporus cinnabarinus", "value": 1},
                         {"name": "Pycnoporus sanguineus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Pyrrhoderma",
-                    "children": [
-                        {"name": "Pyrrhoderma noxium", "value": 1},
-                        {"name": "Pyrrhoderma sendaiense", "value": 1}
                     ]
                 },
                 {
@@ -3620,9 +3070,7 @@
                         {"name": "Ramaria armeniaca", "value": 1},
                         {"name": "Ramaria asiatica", "value": 1},
                         {"name": "Ramaria aurantiisiccescens", "value": 1},
-                        {"name": "Ramaria aurea", "value": 1},
                         {"name": "Ramaria bonii", "value": 1},
-                        {"name": "Ramaria botrytis", "value": 1},
                         {"name": "Ramaria botrytoides", "value": 1},
                         {"name": "Ramaria bourdotiana", "value": 1},
                         {"name": "Ramaria brunneipes", "value": 1},
@@ -3635,12 +3083,7 @@
                         {"name": "Ramaria ephemeroderma", "value": 1},
                         {"name": "Ramaria eryuanensis", "value": 1},
                         {"name": "Ramaria eumorpha", "value": 1},
-                        {"name": "Ramaria fennica", "value": 1},
                         {"name": "Ramaria fistulosa", "value": 1},
-                        {"name": "Ramaria flava", "value": 1},
-                        {"name": "Ramaria flavescens", "value": 1},
-                        {"name": "Ramaria flavobrunnescens", "value": 1},
-                        {"name": "Ramaria formosa", "value": 1},
                         {"name": "Ramaria fumigata", "value": 1},
                         {"name": "Ramaria fuscobrunnea", "value": 1},
                         {"name": "Ramaria gracilis", "value": 1},
@@ -3649,11 +3092,9 @@
                         {"name": "Ramaria holorubella", "value": 1},
                         {"name": "Ramaria indoyunnaniana", "value": 1},
                         {"name": "Ramaria laeviformosoides", "value": 1},
-                        {"name": "Ramaria largentii", "value": 1},
                         {"name": "Ramaria leptoformosa", "value": 1},
                         {"name": "Ramaria linearioides", "value": 1},
                         {"name": "Ramaria linearis", "value": 1},
-                        {"name": "Ramaria lutea", "value": 1},
                         {"name": "Ramaria luteoaeruginea", "value": 1},
                         {"name": "Ramaria maculospora", "value": 1},
                         {"name": "Ramaria madagascariensis", "value": 1},
@@ -3664,15 +3105,12 @@
                         {"name": "Ramaria pallidolilacina", "value": 1},
                         {"name": "Ramaria patagonica", "value": 1},
                         {"name": "Ramaria purpurissima", "value": 1},
-                        {"name": "Ramaria rasilispora", "value": 1},
                         {"name": "Ramaria rosella", "value": 1},
                         {"name": "Ramaria rubiginosa", "value": 1},
                         {"name": "Ramaria rubriattenuipes", "value": 1},
                         {"name": "Ramaria rubricarnata", "value": 1},
-                        {"name": "Ramaria rubrievanescens", "value": 1},
                         {"name": "Ramaria rubripermanens", "value": 1},
                         {"name": "Ramaria rufescens", "value": 1},
-                        {"name": "Ramaria sandaracina", "value": 1},
                         {"name": "Ramaria sanguinea", "value": 1},
                         {"name": "Ramaria sanguinipes", "value": 1},
                         {"name": "Ramaria secunda", "value": 1},
@@ -3683,7 +3121,6 @@
                         {"name": "Ramaria subbotrytis", "value": 1},
                         {"name": "Ramaria suecica", "value": 1},
                         {"name": "Ramaria testaceoflava", "value": 1},
-                        {"name": "Ramaria toxica", "value": 1},
                         {"name": "Ramaria vinosimaculans", "value": 1},
                         {"name": "Ramaria xanthosperma", "value": 1},
                         {"name": "Ramaria zebrispora", "value": 1}
