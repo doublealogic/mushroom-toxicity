@@ -4303,6 +4303,1070 @@
                     ]
                 },
                 {
+                    "name": "Hebeloma",
+                    "children": [
+                        {"name": "Hebeloma fastibile", "value": 1},
+                        {"name": "Hebeloma mesophaeum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Helvella",
+                    "children": [
+                        {"name": "Helvella crispa", "value": 1},
+                        {"name": "Helvella elastica", "value": 1},
+                        {"name": "Helvella lacunosa", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Hericium",
+                    "children": [
+                        {"name": "Hericium coralloides", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Hydnellum",
+                    "children": [
+                        {"name": "Hydnellum scabrosum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Hygrocybe",
+                    "children": [
+                        {"name": "Hygrocybe nigrescens", "value": 1},
+                        {"name": "Hygrocybe punicea", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Hygrophoropsis",
+                    "children": [
+                        {"name": "Hygrophoropsis aurantiaca", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Hypholoma",
+                    "children": [
+                        {"name": "Hypholoma capnoides", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Imleria",
+                    "children": [
+                        {"name": "Imleria badia (was Boletus badius)", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Imperator",
+                    "children": [
+                        {"name": "Imperator rhodopurpureus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Infundibulicybe",
+                    "children": [
+                        {"name": "Infundibulicybe geotropa", "value": 1},
+                        {"name": "Infundibulicybe gibba", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Inosperma",
+                    "children": [
+                        {"name": "Inosperma adaequatum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lactarius",
+                    "children": [
+                        {"name": "Lactarius deterrimus", "value": 1},
+                        {"name": "Lactarius musteus", "value": 1},
+                        {"name": "Lactarius piperatus", "value": 1},
+                        {"name": "Lactarius quietus", "value": 1},
+                        {"name": "Lactarius subdulcis", "value": 1},
+                        {"name": "Lactarius trivialis", "value": 1},
+                        {"name": "Lactarius turpis", "value": 1},
+                        {"name": "Lactarius vellereus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Laetiporus",
+                    "children": [
+                        {"name": "Laetiporus sulphureus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lanmaoa",
+                    "children": [
+                        {"name": "Lanmaoa asiatica", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Leccinum",
+                    "children": [
+                        {"name": "Leccinum scabrum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lentinus",
+                    "children": [
+                        {"name": "Lentinus concavus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Leotia",
+                    "children": [
+                        {"name": "Leotia stipitata", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lepista",
+                    "children": [
+                        {"name": "Lepista caffrorum", "value": 1},
+                        {"name": "Lepista nuda", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Leucoagaricus",
+                    "children": [
+                        {"name": "Leucoagaricus americanus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Leucocoprinus",
+                    "children": [
+                        {"name": "Leucocoprinus cepistipes", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lycoperdon",
+                    "children": [
+                        {"name": "Lycoperdon echinatum", "value": 1},
+                        {"name": "Lycoperdon excipuliforme", "value": 1},
+                        {"name": "Lycoperdon lividum", "value": 1},
+                        {"name": "Lycoperdon molle", "value": 1},
+                        {"name": "Lycoperdon nigrescens", "value": 1},
+                        {"name": "Lycoperdon perlatum", "value": 1},
+                        {"name": "Lycoperdon pratense", "value": 1},
+                        {"name": "Lycoperdon radicatum", "value": 1},
+                        {"name": "Lycoperdon umbrinum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Macrocybe",
+                    "children": [
+                        {"name": "Macrocybe spectabilis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Macrolepiota",
+                    "children": [
+                        {"name": "Macrolepiota procera", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Meripilus",
+                    "children": [
+                        {"name": "Meripilus giganteus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Morchella",
+                    "children": [
+                        {"name": "Morchella angusticeps", "value": 1},
+                        {"name": "Morchella costata", "value": 1},
+                        {"name": "Morchella elata", "value": 1},
+                        {"name": "Morchella esculenta", "value": 1},
+                        {"name": "Morchella semilibera", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Mycena",
+                    "children": [
+                        {"name": "Mycena haematopus", "value": 1},
+                        {"name": "Mycena pura", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Mycenastrum",
+                    "children": [
+                        {"name": "Mycenastrum corium", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Neoboletus",
+                    "children": [
+                        {"name": "Neoboletus erythropus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
                     "name": "Amylosporus",
                     "children": [
                     ]
