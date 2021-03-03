@@ -1601,18 +1601,6 @@
                     ]
                 },
                 {
-                    "name": "Heterochaete",
-                    "children": [
-                        {"name": "Heterochaete delicata", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Heterotextus",
-                    "children": [
-                        {"name": "Heterotextus peziziformis", "value": 1}
-                    ]
-                },
-                {
                     "name": "Hohenbuehelia",
                     "children": [
                         {"name": "Hohenbuehelia auriscalpium", "value": 1},
@@ -1622,18 +1610,6 @@
                         {"name": "Hohenbuehelia repanda", "value": 1},
                         {"name": "Hohenbuehelia serotina", "value": 1},
                         {"name": "Hohenbuehelia tremula", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Holtermannia",
-                    "children": [
-                        {"name": "Holtermannia corniformis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Holwaya",
-                    "children": [
-                        {"name": "Holwaya mucida", "value": 1}
                     ]
                 },
                 {
@@ -1652,7 +1628,6 @@
                 {
                     "name": "Hourangia",
                     "children": [
-                        {"name": "Hourangia cheoi", "value": 1},
                         {"name": "Hourangia nigropunctata", "value": 1}
                     ]
                 },
@@ -1677,22 +1652,8 @@
                 {
                     "name": "Hydnellum",
                     "children": [
-                        {"name": "Hydnellum caeruleum", "value": 1},
                         {"name": "Hydnellum concrescens", "value": 1},
-                        {"name": "Hydnellum cumulatum", "value": 1},
-                        {"name": "Hydnellum scabrosum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Hydnodon",
-                    "children": [
-                        {"name": "Hydnodon thelephorus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Hydnophlebia",
-                    "children": [
-                        {"name": "Hydnophlebia chrysorhiza", "value": 1}
+                        {"name": "Hydnellum cumulatum", "value": 1}
                     ]
                 },
                 {
@@ -1700,12 +1661,6 @@
                     "children": [
                         {"name": "Hydnopolyporus fimbriatus", "value": 1},
                         {"name": "Hydnopolyporus palmatus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Hydnoporia",
-                    "children": [
-                        {"name": "Hydnoporia tabacinoides", "value": 1}
                     ]
                 },
                 {
@@ -1735,32 +1690,22 @@
                     "name": "Hygrocybe",
                     "children": [
                         {"name": "Hygrocybe acutoconica", "value": 1},
-                        {"name": "Hygrocybe arnoldsii", "value": 1},
                         {"name": "Hygrocybe cantharellus", "value": 1},
                         {"name": "Hygrocybe ceracea", "value": 1},
                         {"name": "Hygrocybe chlorophana", "value": 1},
                         {"name": "Hygrocybe citrinovirens", "value": 1},
                         {"name": "Hygrocybe coccinea", "value": 1},
-                        {"name": "Hygrocybe coccineocrenata", "value": 1},
-                        {"name": "Hygrocybe conica", "value": 1},
-                        {"name": "Hygrocybe cuspidata", "value": 1},
                         {"name": "Hygrocybe flavescens", "value": 1},
                         {"name": "Hygrocybe intermedia", "value": 1},
                         {"name": "Hygrocybe marchii", "value": 1},
                         {"name": "Hygrocybe miniata", "value": 1},
-                        {"name": "Hygrocybe nigrescens", "value": 1},
                         {"name": "Hygrocybe obrussea", "value": 1},
-                        {"name": "Hygrocybe olivaceoviridis", "value": 1},
-                        {"name": "Hygrocybe ovina", "value": 1},
-                        {"name": "Hygrocybe punicea", "value": 1},
-                        {"name": "Hygrocybe subcinnabarina", "value": 1},
-                        {"name": "Hygrocybe venusta", "value": 1}
+                        {"name": "Hygrocybe subcinnabarina", "value": 1}
                     ]
                 },
                 {
                     "name": "Hygrophoropsis",
                     "children": [
-                        {"name": "Hygrophoropsis aurantiaca", "value": 1},
                         {"name": "Hygrophoropsis mangenotii", "value": 1}
                     ]
                 },
@@ -1809,21 +1754,6 @@
                     ]
                 },
                 {
-                    "name": "Hymenochaete",
-                    "children": [
-                        {"name": "Hymenochaete damicornis", "value": 1},
-                        {"name": "Hymenochaete mougeotii", "value": 1},
-                        {"name": "Hymenochaete rubiginosa", "value": 1},
-                        {"name": "Hymenochaete xerantica", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Hymenochaetopsis",
-                    "children": [
-                        {"name": "Hymenochaetopsis intricata", "value": 1}
-                    ]
-                },
-                {
                     "name": "Hymenogaster",
                     "children": [
                         {"name": "Hymenogaster cangyanshanensis", "value": 1},
@@ -1840,24 +1770,8 @@
                     ]
                 },
                 {
-                    "name": "Hymenoscyphus",
-                    "children": [
-                        {"name": "Hymenoscyphus montaniensis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Hymenostilbe",
-                    "children": [
-                        {"name": "Hymenostilbe odonatae", "value": 1}
-                    ]
-                },
-                {
                     "name": "Hypholoma",
                     "children": [
-                        {"name": "Hypholoma capnoides", "value": 1},
-                        {"name": "Hypholoma epixanthum", "value": 1},
-                        {"name": "Hypholoma lateritium", "value": 1},
-                        {"name": "Hypholoma marginatum", "value": 1},
                         {"name": "Hypholoma wambense", "value": 1}
                     ]
                 },
@@ -1881,15 +1795,13 @@
                 {
                     "name": "Hysterangium",
                     "children": [
-                        {"name": "Hysterangium atlanticum", "value": 1},
                         {"name": "Hysterangium separabile", "value": 1}
                     ]
                 },
                 {
                     "name": "Ileodictyon",
                     "children": [
-                        {"name": "Ileodictyon cibarium", "value": 1},
-                        {"name": "Ileodictyon gracile", "value": 1}
+                        {"name": "Ileodictyon cibarium", "value": 1}
                     ]
                 },
                 {
@@ -1899,62 +1811,10 @@
                     ]
                 },
                 {
-                    "name": "Imleria",
-                    "children": [
-                        {"name": "Imleria badia (was Boletus badius)", "value": 1},
-                        {"name": "Imleria obscurebrunnea", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Imperator",
-                    "children": [
-                        {"name": "Imperator rhodopurpureus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Inflatostereum",
-                    "children": [
-                        {"name": "Inflatostereum glabrum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Infundibulicybe",
-                    "children": [
-                        {"name": "Infundibulicybe geotropa", "value": 1},
-                        {"name": "Infundibulicybe gibba", "value": 1}
-                    ]
-                },
-                {
                     "name": "Inocybe",
                     "children": [
-                        {"name": "Inocybe asterospora", "value": 1},
-                        {"name": "Inocybe chrysochroa", "value": 1},
-                        {"name": "Inocybe flavobrunnea", "value": 1},
                         {"name": "Inocybe gbadjii", "value": 1},
-                        {"name": "Inocybe geophylla", "value": 1},
-                        {"name": "Inocybe hirtella", "value": 1},
-                        {"name": "Inocybe kobayasii", "value": 1},
-                        {"name": "Inocybe lutea", "value": 1},
-                        {"name": "Inocybe nodulosospora", "value": 1},
-                        {"name": "Inocybe sphaerospora", "value": 1},
-                        {"name": "Inocybe tulearensis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Inonotus",
-                    "children": [
-                        {"name": "Inonotus hispidus", "value": 1},
-                        {"name": "Inonotus mikadoi", "value": 1},
-                        {"name": "Inonotus obliquus", "value": 1},
-                        {"name": "Inonotus pachyphloeus", "value": 1},
-                        {"name": "Inonotus tabacinus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Inosperma",
-                    "children": [
-                        {"name": "Inosperma adaequatum", "value": 1},
-                        {"name": "Inosperma cookei", "value": 1}
+                        {"name": "Inocybe hirtella", "value": 1}
                     ]
                 },
                 {
@@ -1964,35 +1824,9 @@
                     ]
                 },
                 {
-                    "name": "Isaria",
-                    "children": [
-                        {"name": "Isaria japonica", "value": 1},
-                        {"name": "Isaria sinclairii", "value": 1}
-                    ]
-                },
-                {
                     "name": "Ischnoderma",
                     "children": [
                         {"name": "Ischnoderma resinosum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Jahnoporus",
-                    "children": [
-                        {"name": "Jahnoporus hirtus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Jansia",
-                    "children": [
-                        {"name": "Jansia boninensis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Junghuhnia",
-                    "children": [
-                        {"name": "Junghuhnia aurantilaeta", "value": 1},
-                        {"name": "Junghuhnia nitida", "value": 1}
                     ]
                 },
                 {
@@ -2005,12 +1839,6 @@
                     "name": "Kobayasia",
                     "children": [
                         {"name": "Kobayasia nipponica", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Kretzschmaria",
-                    "children": [
-                        {"name": "Kretzschmaria deusta", "value": 1}
                     ]
                 },
                 {
@@ -2069,21 +1897,8 @@
                     ]
                 },
                 {
-                    "name": "Lachnum",
-                    "children": [
-                        {"name": "Lachnum pritzelianum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Lacrymaria",
-                    "children": [
-                        {"name": "Lacrymaria lacrymabunda", "value": 1}
-                    ]
-                },
-                {
                     "name": "Lactarius",
                     "children": [
-                        {"name": "Lactarius acris", "value": 1},
                         {"name": "Lactarius angustizonatus", "value": 1},
                         {"name": "Lactarius argillaceifolius", "value": 1},
                         {"name": "Lactarius aspideus", "value": 1},
@@ -2097,7 +1912,6 @@
                         {"name": "Lactarius carbonicola", "value": 1},
                         {"name": "Lactarius chelidonium", "value": 1},
                         {"name": "Lactarius chichuensis", "value": 1},
-                        {"name": "Lactarius chrysorrheus", "value": 1},
                         {"name": "Lactarius cinnamomeus", "value": 1},
                         {"name": "Lactarius circellatus", "value": 1},
                         {"name": "Lactarius cistophilus", "value": 1},
@@ -2105,7 +1919,6 @@
                         {"name": "Lactarius controversus", "value": 1},
                         {"name": "Lactarius corrugis", "value": 1},
                         {"name": "Lactarius deliciosus", "value": 1},
-                        {"name": "Lactarius deterrimus", "value": 1},
                         {"name": "Lactarius echinatus", "value": 1},
                         {"name": "Lactarius flavidulus", "value": 1},
                         {"name": "Lactarius flexuosus", "value": 1},
@@ -2114,21 +1927,17 @@
                         {"name": "Lactarius glyciosmus", "value": 1},
                         {"name": "Lactarius gracilis", "value": 1},
                         {"name": "Lactarius hatsudake", "value": 1},
-                        {"name": "Lactarius helvus", "value": 1},
                         {"name": "Lactarius hengduanensis", "value": 1},
                         {"name": "Lactarius hygrophoroides", "value": 1},
                         {"name": "Lactarius hysginus", "value": 1},
                         {"name": "Lactarius indigo", "value": 1},
                         {"name": "Lactarius kabansus", "value": 1},
-                        {"name": "Lactarius lignyotus", "value": 1},
-                        {"name": "Lactarius musteus", "value": 1},
                         {"name": "Lactarius necator", "value": 1},
                         {"name": "Lactarius obliquus", "value": 1},
                         {"name": "Lactarius obscuratus", "value": 1},
                         {"name": "Lactarius pallidus", "value": 1},
                         {"name": "Lactarius pergamenus", "value": 1},
                         {"name": "Lactarius picinus", "value": 1},
-                        {"name": "Lactarius piperatus", "value": 1},
                         {"name": "Lactarius porninsis", "value": 1},
                         {"name": "Lactarius princeps", "value": 1},
                         {"name": "Lactarius pseudohatsudake", "value": 1},
@@ -2136,7 +1945,6 @@
                         {"name": "Lactarius pubescens", "value": 1},
                         {"name": "Lactarius pyrogalus", "value": 1},
                         {"name": "Lactarius quieticolor", "value": 1},
-                        {"name": "Lactarius quietus", "value": 1},
                         {"name": "Lactarius repraesentaneus", "value": 1},
                         {"name": "Lactarius resimus", "value": 1},
                         {"name": "Lactarius rimosellus", "value": 1},
@@ -2152,19 +1960,13 @@
                         {"name": "Lactarius semisanguifluus", "value": 1},
                         {"name": "Lactarius serifluus", "value": 1},
                         {"name": "Lactarius sinozonarius", "value": 1},
-                        {"name": "Lactarius subdulcis", "value": 1},
                         {"name": "Lactarius subindigo", "value": 1},
-                        {"name": "Lactarius subplinthogalus", "value": 1},
                         {"name": "Lactarius subzonarius", "value": 1},
                         {"name": "Lactarius tabidus", "value": 1},
                         {"name": "Lactarius taedae", "value": 1},
                         {"name": "Lactarius tenellus", "value": 1},
-                        {"name": "Lactarius torminosus", "value": 1},
-                        {"name": "Lactarius trivialis", "value": 1},
-                        {"name": "Lactarius turpis", "value": 1},
                         {"name": "Lactarius utilis", "value": 1},
                         {"name": "Lactarius uvidus", "value": 1},
-                        {"name": "Lactarius vellereus", "value": 1},
                         {"name": "Lactarius vietus", "value": 1},
                         {"name": "Lactarius violascens", "value": 1},
                         {"name": "Lactarius vividus", "value": 1},
@@ -2194,7 +1996,6 @@
                         {"name": "Lactifluus luteolus", "value": 1},
                         {"name": "Lactifluus luteopus", "value": 1},
                         {"name": "Lactifluus medusae", "value": 1},
-                        {"name": "Lactifluus ochrogalactus", "value": 1},
                         {"name": "Lactifluus pelliculatus", "value": 1},
                         {"name": "Lactifluus phlebophyllus", "value": 1},
                         {"name": "Lactifluus pseudogymnocarpus", "value": 1},
@@ -2207,7 +2008,6 @@
                         {"name": "Lactifluus subvellereus", "value": 1},
                         {"name": "Lactifluus tanzanicus", "value": 1},
                         {"name": "Lactifluus tenuicystidiatus", "value": 1},
-                        {"name": "Lactifluus uyedae", "value": 1},
                         {"name": "Lactifluus velutissimus", "value": 1},
                         {"name": "Lactifluus volemoides", "value": 1},
                         {"name": "Lactifluus waltersii", "value": 1},
@@ -2218,7 +2018,6 @@
                     "name": "Lactocollybia",
                     "children": [
                         {"name": "Lactocollybia aequatorialis", "value": 1},
-                        {"name": "Lactocollybia cycadicola", "value": 1},
                         {"name": "Lactocollybia epia", "value": 1}
                     ]
                 },
