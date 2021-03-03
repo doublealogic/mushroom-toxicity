@@ -3135,21 +3135,9 @@
                     ]
                 },
                 {
-                    "name": "Rectipilus",
-                    "children": [
-                        {"name": "Rectipilus fasciculatus", "value": 1}
-                    ]
-                },
-                {
                     "name": "Resinomycena",
                     "children": [
                         {"name": "Resinomycena rhododendri", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Resupinatus",
-                    "children": [
-                        {"name": "Resupinatus trichotis", "value": 1}
                     ]
                 },
                 {
@@ -3178,18 +3166,6 @@
                     ]
                 },
                 {
-                    "name": "Rhizina",
-                    "children": [
-                        {"name": "Rhizina undulata", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Rhizochaete",
-                    "children": [
-                        {"name": "Rhizochaete radicata", "value": 1}
-                    ]
-                },
-                {
                     "name": "Rhizocybe",
                     "children": [
                         {"name": "Rhizocybe pruinosa", "value": 1},
@@ -3204,10 +3180,8 @@
                         {"name": "Rhizopogon magnatus", "value": 1},
                         {"name": "Rhizopogon michoacanicus", "value": 1},
                         {"name": "Rhizopogon nigrescens", "value": 1},
-                        {"name": "Rhizopogon obtextus", "value": 1},
                         {"name": "Rhizopogon ochraceorubens", "value": 1},
                         {"name": "Rhizopogon piceus", "value": 1},
-                        {"name": "Rhizopogon roseolus", "value": 1},
                         {"name": "Rhizopogon shanxiensis", "value": 1},
                         {"name": "Rhizopogon superiorensis", "value": 1}
                     ]
@@ -3228,21 +3202,9 @@
                     ]
                 },
                 {
-                    "name": "Rhodofomes",
-                    "children": [
-                        {"name": "Rhodofomes cajanderi", "value": 1}
-                    ]
-                },
-                {
                     "name": "Rhodotus",
                     "children": [
                         {"name": "Rhodotus palmatus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Rickenella",
-                    "children": [
-                        {"name": "Rickenella fibula", "value": 1}
                     ]
                 },
                 {
@@ -3254,9 +3216,7 @@
                 {
                     "name": "Rigidoporus",
                     "children": [
-                        {"name": "Rigidoporus amazonicus", "value": 1},
-                        {"name": "Rigidoporus lineatus", "value": 1},
-                        {"name": "Rigidoporus microporus", "value": 1}
+                        {"name": "Rigidoporus amazonicus", "value": 1}
                     ]
                 },
                 {
@@ -3272,12 +3232,6 @@
                     ]
                 },
                 {
-                    "name": "Roridomyces",
-                    "children": [
-                        {"name": "Roridomyces roridus", "value": 1}
-                    ]
-                },
-                {
                     "name": "Royoporus",
                     "children": [
                         {"name": "Royoporus spatulatus", "value": 1}
@@ -3287,10 +3241,7 @@
                     "name": "Rubroboletus",
                     "children": [
                         {"name": "Rubroboletus dupainii", "value": 1},
-                        {"name": "Rubroboletus esculentus", "value": 1},
-                        {"name": "Rubroboletus latisporus", "value": 1},
-                        {"name": "Rubroboletus satanas", "value": 1},
-                        {"name": "Rubroboletus sinicus", "value": 1}
+                        {"name": "Rubroboletus esculentus", "value": 1}
                     ]
                 },
                 {
@@ -3304,8 +3255,6 @@
                     "name": "Russula",
                     "children": [
                         {"name": "Russula aciculocystis", "value": 1},
-                        {"name": "Russula adusta (was R. nigricans)", "value": 1},
-                        {"name": "Russula aeruginea", "value": 1},
                         {"name": "Russula afronigricans", "value": 1},
                         {"name": "Russula alatoreticula", "value": 1},
                         {"name": "Russula albida", "value": 1},
@@ -3325,7 +3274,6 @@
                         {"name": "Russula aurea", "value": 1},
                         {"name": "Russula aurora", "value": 1},
                         {"name": "Russula azurea", "value": 1},
-                        {"name": "Russula badia", "value": 1},
                         {"name": "Russula brevipes", "value": 1},
                         {"name": "Russula brunneoviolacea", "value": 1},
                         {"name": "Russula caerulea", "value": 1},
@@ -3346,12 +3294,9 @@
                         {"name": "Russula cyclosperma", "value": 1},
                         {"name": "Russula decolorans", "value": 1},
                         {"name": "Russula delica", "value": 1},
-                        {"name": "Russula densifolia", "value": 1},
                         {"name": "Russula depallens", "value": 1},
                         {"name": "Russula diffusa", "value": 1},
-                        {"name": "Russula earlei", "value": 1},
                         {"name": "Russula eburneoareolata", "value": 1},
-                        {"name": "Russula emetica", "value": 1},
                         {"name": "Russula emeticicolor", "value": 1},
                         {"name": "Russula exalbicans", "value": 1},
                         {"name": "Russula faginea", "value": 1},
@@ -3359,14 +3304,8 @@
                         {"name": "Russula faustiana", "value": 1},
                         {"name": "Russula favrei", "value": 1},
                         {"name": "Russula fellea", "value": 1},
-                        {"name": "Russula firmula", "value": 1},
-                        {"name": "Russula flavida", "value": 1},
-                        {"name": "Russula foetens", "value": 1},
-                        {"name": "Russula fragilis", "value": 1},
                         {"name": "Russula furcata", "value": 1},
-                        {"name": "Russula gracillima", "value": 1},
                         {"name": "Russula granulata", "value": 1},
-                        {"name": "Russula grata", "value": 1},
                         {"name": "Russula graveolens", "value": 1},
                         {"name": "Russula grisea", "value": 1},
                         {"name": "Russula griseocarnosa", "value": 1},
@@ -3378,14 +3317,12 @@
                         {"name": "Russula integra", "value": 1},
                         {"name": "Russula ionochlora", "value": 1},
                         {"name": "Russula kanadii", "value": 1},
-                        {"name": "Russula kansaiensis", "value": 1},
                         {"name": "Russula lepidicolor", "value": 1},
                         {"name": "Russula liberiensis", "value": 1},
                         {"name": "Russula lilacea", "value": 1},
                         {"name": "Russula livescens", "value": 1},
                         {"name": "Russula luteotacta", "value": 1},
                         {"name": "Russula macropoda", "value": 1},
-                        {"name": "Russula maculata", "value": 1},
                         {"name": "Russula madagassensis", "value": 1},
                         {"name": "Russula mariae", "value": 1},
                         {"name": "Russula medullata", "value": 1},
@@ -3400,19 +3337,15 @@
                         {"name": "Russula nauseosa", "value": 1},
                         {"name": "Russula nigrovirens", "value": 1},
                         {"name": "Russula nitida", "value": 1},
-                        {"name": "Russula ochroleuca", "value": 1},
                         {"name": "Russula odorata", "value": 1},
                         {"name": "Russula oleifera", "value": 1},
                         {"name": "Russula olivacea", "value": 1},
-                        {"name": "Russula omiensis", "value": 1},
                         {"name": "Russula ornaticeps", "value": 1},
                         {"name": "Russula paludosa", "value": 1},
                         {"name": "Russula parazurea", "value": 1},
-                        {"name": "Russula pectinata", "value": 1},
                         {"name": "Russula pectinatoides", "value": 1},
                         {"name": "Russula phaeocephala", "value": 1},
                         {"name": "Russula polyphylla", "value": 1},
-                        {"name": "Russula prinophila", "value": 1},
                         {"name": "Russula pseudoaeruginea", "value": 1},
                         {"name": "Russula pseudoamaendum", "value": 1},
                         {"name": "Russula pseudodelica", "value": 1},
@@ -3427,7 +3360,6 @@
                         {"name": "Russula risigallina", "value": 1},
                         {"name": "Russula romagnesiana", "value": 1},
                         {"name": "Russula romellii", "value": 1},
-                        {"name": "Russula rosea", "value": 1},
                         {"name": "Russula roseicolor", "value": 1},
                         {"name": "Russula roseipes", "value": 1},
                         {"name": "Russula roseoalba", "value": 1},
@@ -3437,11 +3369,8 @@
                         {"name": "Russula rubescens", "value": 1},
                         {"name": "Russula rubra", "value": 1},
                         {"name": "Russula rubroalba", "value": 1},
-                        {"name": "Russula sanguinaria", "value": 1},
                         {"name": "Russula sanguinea", "value": 1},
-                        {"name": "Russula sardonia", "value": 1},
                         {"name": "Russula schizoderma", "value": 1},
-                        {"name": "Russula senecis", "value": 1},
                         {"name": "Russula sese", "value": 1},
                         {"name": "Russula sesenagula", "value": 1},
                         {"name": "Russula striatoviridis", "value": 1},
@@ -3455,7 +3384,6 @@
                         {"name": "Russula turci", "value": 1},
                         {"name": "Russula velenovskyi", "value": 1},
                         {"name": "Russula vesca", "value": 1},
-                        {"name": "Russula veternosa", "value": 1},
                         {"name": "Russula vinosa", "value": 1},
                         {"name": "Russula vinosobrunnea", "value": 1},
                         {"name": "Russula violacea", "value": 1},
@@ -3473,18 +3401,9 @@
                     ]
                 },
                 {
-                    "name": "Sanghuangporus",
-                    "children": [
-                        {"name": "Sanghuangporus baumii", "value": 1}
-                    ]
-                },
-                {
                     "name": "Saproamanita",
                     "children": [
-                        {"name": "Saproamanita foetidissima", "value": 1},
-                        {"name": "Saproamanita praeclara", "value": 1},
-                        {"name": "Saproamanita thiersii", "value": 1},
-                        {"name": "Saproamanita vittadinii", "value": 1}
+                        {"name": "Saproamanita thiersii", "value": 1}
                     ]
                 },
                 {
@@ -3492,15 +3411,8 @@
                     "children": [
                         {"name": "Sarcodon amarescens", "value": 1},
                         {"name": "Sarcodon excentricus", "value": 1},
-                        {"name": "Sarcodon imbricatus", "value": 1},
                         {"name": "Sarcodon leucopus", "value": 1},
                         {"name": "Sarcodon lobatus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Sarcodontia",
-                    "children": [
-                        {"name": "Sarcodontia spumea", "value": 1}
                     ]
                 },
                 {
@@ -3510,22 +3422,9 @@
                     ]
                 },
                 {
-                    "name": "Sarcoscypha",
-                    "children": [
-                        {"name": "Sarcoscypha coccinea", "value": 1},
-                        {"name": "Sarcoscypha occidentalis", "value": 1}
-                    ]
-                },
-                {
                     "name": "Sarcosoma",
                     "children": [
                         {"name": "Sarcosoma globosum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Sarcosphaera",
-                    "children": [
-                        {"name": "Sarcosphaera coronaria", "value": 1}
                     ]
                 },
                 {
@@ -3539,26 +3438,14 @@
                 {
                     "name": "Scleroderma",
                     "children": [
-                        {"name": "Scleroderma areolatum", "value": 1},
                         {"name": "Scleroderma aurantiacum", "value": 1},
-                        {"name": "Scleroderma australe", "value": 1},
-                        {"name": "Scleroderma bovista", "value": 1},
-                        {"name": "Scleroderma cepa", "value": 1},
-                        {"name": "Scleroderma citrinum", "value": 1},
                         {"name": "Scleroderma flavidum", "value": 1},
                         {"name": "Scleroderma laeve", "value": 1},
                         {"name": "Scleroderma polyrhizum", "value": 1},
                         {"name": "Scleroderma radicans", "value": 1},
                         {"name": "Scleroderma tenerum", "value": 1},
                         {"name": "Scleroderma texense", "value": 1},
-                        {"name": "Scleroderma verrucosum", "value": 1},
                         {"name": "Scleroderma yunnanense", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Scleromitrula",
-                    "children": [
-                        {"name": "Scleromitrula shiraiana", "value": 1}
                     ]
                 },
                 {
@@ -3576,7 +3463,6 @@
                 {
                     "name": "Scutellinia",
                     "children": [
-                        {"name": "Scutellinia erinaceus", "value": 1},
                         {"name": "Scutellinia scutellata", "value": 1}
                     ]
                 },
@@ -3590,12 +3476,6 @@
                     "name": "Scytinopogon",
                     "children": [
                         {"name": "Scytinopogon echinosporus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Scytinostroma",
-                    "children": [
-                        {"name": "Scytinostroma odoratum", "value": 1}
                     ]
                 },
                 {
@@ -3613,39 +3493,9 @@
                     ]
                 },
                 {
-                    "name": "Septobasidium",
-                    "children": [
-                        {"name": "Septobasidium bogoriense", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Serpula",
-                    "children": [
-                        {"name": "Serpula lacrymans", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Shimizuomyces",
-                    "children": [
-                        {"name": "Shimizuomyces paradoxus", "value": 1}
-                    ]
-                },
-                {
                     "name": "Singerocybe",
                     "children": [
                         {"name": "Singerocybe alboinfundibuliformis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Skeletocutis",
-                    "children": [
-                        {"name": "Skeletocutis nivea", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Sowerbyella",
-                    "children": [
-                        {"name": "Sowerbyella rhenana", "value": 1}
                     ]
                 },
                 {
@@ -3672,12 +3522,6 @@
                     ]
                 },
                 {
-                    "name": "Sphaerobolus",
-                    "children": [
-                        {"name": "Sphaerobolus stellatus", "value": 1}
-                    ]
-                },
-                {
                     "name": "Sporisorium",
                     "children": [
                         {"name": "Sporisorium cruentum", "value": 1}
@@ -3686,15 +3530,7 @@
                 {
                     "name": "Squamanita",
                     "children": [
-                        {"name": "Squamanita odorata", "value": 1},
                         {"name": "Squamanita umbonata", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Steccherinum",
-                    "children": [
-                        {"name": "Steccherinum laeticolor", "value": 1},
-                        {"name": "Steccherinum ochraceum", "value": 1}
                     ]
                 },
                 {
@@ -3706,17 +3542,7 @@
                 {
                     "name": "Stereopsis",
                     "children": [
-                        {"name": "Stereopsis burtiana", "value": 1},
                         {"name": "Stereopsis hiscens", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Stereum",
-                    "children": [
-                        {"name": "Stereum hirsutum", "value": 1},
-                        {"name": "Stereum ostrea", "value": 1},
-                        {"name": "Stereum rugosum", "value": 1},
-                        {"name": "Stereum sanguinolentum", "value": 1}
                     ]
                 },
                 {
@@ -3738,33 +3564,15 @@
                         {"name": "Strobilurus ohshimae", "value": 1},
                         {"name": "Strobilurus orientalis", "value": 1},
                         {"name": "Strobilurus pachycystidiatus", "value": 1},
-                        {"name": "Strobilurus stephanocystis", "value": 1},
-                        {"name": "Strobilurus tenacellus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Stromatinia",
-                    "children": [
-                        {"name": "Stromatinia rapulum", "value": 1}
+                        {"name": "Strobilurus stephanocystis", "value": 1}
                     ]
                 },
                 {
                     "name": "Stropharia",
                     "children": [
-                        {"name": "Stropharia aeruginosa", "value": 1},
                         {"name": "Stropharia caerulea", "value": 1},
                         {"name": "Stropharia crocopepla", "value": 1},
-                        {"name": "Stropharia hornemannii", "value": 1},
-                        {"name": "Stropharia lepiotiformis", "value": 1},
-                        {"name": "Stropharia rugosoannulata", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Suillellus",
-                    "children": [
-                        {"name": "Suillellus luridus", "value": 1},
-                        {"name": "Suillellus pulchrotinctus", "value": 1},
-                        {"name": "Suillellus queletii", "value": 1}
+                        {"name": "Stropharia lepiotiformis", "value": 1}
                     ]
                 },
                 {
@@ -3773,7 +3581,6 @@
                         {"name": "Suillus abietinus", "value": 1},
                         {"name": "Suillus acidus", "value": 1},
                         {"name": "Suillus albidipes", "value": 1},
-                        {"name": "Suillus americanus", "value": 1},
                         {"name": "Suillus bellinii", "value": 1},
                         {"name": "Suillus bovinus", "value": 1},
                         {"name": "Suillus bresadolae", "value": 1},
@@ -3786,7 +3593,6 @@
                         {"name": "Suillus flavidus", "value": 1},
                         {"name": "Suillus flavogranulatus", "value": 1},
                         {"name": "Suillus glandulosipes", "value": 1},
-                        {"name": "Suillus granulatus", "value": 1},
                         {"name": "Suillus grevillei", "value": 1},
                         {"name": "Suillus guzmanii", "value": 1},
                         {"name": "Suillus himalayensis", "value": 1},
@@ -3794,17 +3600,14 @@
                         {"name": "Suillus kunmingensis", "value": 1},
                         {"name": "Suillus kwangtungensis", "value": 1},
                         {"name": "Suillus lakei", "value": 1},
-                        {"name": "Suillus luteus", "value": 1},
                         {"name": "Suillus mediterraneensis", "value": 1},
                         {"name": "Suillus phylopictus", "value": 1},
-                        {"name": "Suillus placidus", "value": 1},
                         {"name": "Suillus plorans", "value": 1},
                         {"name": "Suillus ponderosus", "value": 1},
                         {"name": "Suillus pseudobrevipes", "value": 1},
                         {"name": "Suillus punctipes", "value": 1},
                         {"name": "Suillus pungens", "value": 1},
                         {"name": "Suillus salmonicolor", "value": 1},
-                        {"name": "Suillus spraguei", "value": 1},
                         {"name": "Suillus subaureus", "value": 1},
                         {"name": "Suillus subluteus", "value": 1},
                         {"name": "Suillus tomentosus", "value": 1},
@@ -3818,33 +3621,13 @@
                     "name": "Sutorius",
                     "children": [
                         {"name": "Sutorius brunneissimus", "value": 1},
-                        {"name": "Sutorius eximius", "value": 1},
                         {"name": "Sutorius magnificus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Tapinella",
-                    "children": [
-                        {"name": "Tapinella atrotomentosa", "value": 1},
-                        {"name": "Tapinella panuoides", "value": 1}
                     ]
                 },
                 {
                     "name": "Tarzetta",
                     "children": [
                         {"name": "Tarzetta catinus", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Tatraea",
-                    "children": [
-                        {"name": "Tatraea macrospora", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Tectella",
-                    "children": [
-                        {"name": "Tectella patellaris", "value": 1}
                     ]
                 },
                 {
@@ -3855,18 +3638,11 @@
                     ]
                 },
                 {
-                    "name": "Terana",
-                    "children": [
-                        {"name": "Terana coerulea", "value": 1}
-                    ]
-                },
-                {
                     "name": "Terfezia",
                     "children": [
                         {"name": "Terfezia arenaria", "value": 1},
                         {"name": "Terfezia boudieri", "value": 1},
                         {"name": "Terfezia claveryi", "value": 1},
-                        {"name": "Terfezia decaryi", "value": 1},
                         {"name": "Terfezia leptoderma", "value": 1},
                         {"name": "Terfezia sinuosa", "value": 1}
                     ]
@@ -3931,15 +3707,7 @@
                         {"name": "Thelephora fuscella", "value": 1},
                         {"name": "Thelephora ganbajun", "value": 1},
                         {"name": "Thelephora japonica", "value": 1},
-                        {"name": "Thelephora multipartita", "value": 1},
-                        {"name": "Thelephora palmata", "value": 1},
                         {"name": "Thelephora vialis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Tinctoporellus",
-                    "children": [
-                        {"name": "Tinctoporellus epimiltinus", "value": 1}
                     ]
                 },
                 {
@@ -3952,68 +3720,18 @@
                 {
                     "name": "Tolypocladium",
                     "children": [
-                        {"name": "Tolypocladium capitatum", "value": 1},
                         {"name": "Tolypocladium guangdongense", "value": 1},
-                        {"name": "Tolypocladium inflatum", "value": 1},
-                        {"name": "Tolypocladium intermedium", "value": 1},
-                        {"name": "Tolypocladium japonicum", "value": 1},
                         {"name": "Tolypocladium ophioglossoides", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Tomentella",
-                    "children": [
-                        {"name": "Tomentella crinalis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Torrubiella",
-                    "children": [
-                        {"name": "Torrubiella ellipsoidea", "value": 1},
-                        {"name": "Torrubiella mammillata", "value": 1},
-                        {"name": "Torrubiella minuta", "value": 1},
-                        {"name": "Torrubiella minutissima", "value": 1},
-                        {"name": "Torrubiella superficialis", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Trachyderma",
-                    "children": [
-                        {"name": "Trachyderma tsunodae", "value": 1}
                     ]
                 },
                 {
                     "name": "Trametes",
                     "children": [
-                        {"name": "Trametes coccinea", "value": 1},
                         {"name": "Trametes cubensis", "value": 1},
-                        {"name": "Trametes elegans", "value": 1},
                         {"name": "Trametes flavida", "value": 1},
                         {"name": "Trametes gibbosa", "value": 1},
-                        {"name": "Trametes hirsuta", "value": 1},
                         {"name": "Trametes ochracea", "value": 1},
-                        {"name": "Trametes orientalis", "value": 1},
-                        {"name": "Trametes palisotii", "value": 1},
-                        {"name": "Trametes pubescens", "value": 1},
-                        {"name": "Trametes robiniophila", "value": 1},
-                        {"name": "Trametes strumosa", "value": 1},
-                        {"name": "Trametes suaveolens", "value": 1},
-                        {"name": "Trametes trogii", "value": 1},
-                        {"name": "Trametes vernicipes", "value": 1},
-                        {"name": "Trametes versicolor", "value": 1},
-                        {"name": "Trametes vespacea", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Trametopsis",
-                    "children": [
-                        {"name": "Trametopsis cervina", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Trechispora",
-                    "children": [
-                        {"name": "Trechispora mollusca", "value": 1}
+                        {"name": "Trametes robiniophila", "value": 1}
                     ]
                 },
                 {
@@ -4023,7 +3741,6 @@
                         {"name": "Tremella encephala", "value": 1},
                         {"name": "Tremella fuciformis", "value": 1},
                         {"name": "Tremella hainanensis", "value": 1},
-                        {"name": "Tremella mesenterica", "value": 1},
                         {"name": "Tremella pulvinalis", "value": 1},
                         {"name": "Tremella ramarioides", "value": 1},
                         {"name": "Tremella sanguinea", "value": 1}
@@ -4051,30 +3768,8 @@
                 {
                     "name": "Trichaptum",
                     "children": [
-                        {"name": "Trichaptum abietinum", "value": 1},
-                        {"name": "Trichaptum biforme", "value": 1},
-                        {"name": "Trichaptum fuscoviolaceum", "value": 1},
                         {"name": "Trichaptum perrottetii", "value": 1},
                         {"name": "Trichaptum trichomallum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Trichocoma",
-                    "children": [
-                        {"name": "Trichocoma paradoxa", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Trichoderma",
-                    "children": [
-                        {"name": "Trichoderma pseudostramineum", "value": 1}
-                    ]
-                },
-                {
-                    "name": "Trichoglossum",
-                    "children": [
-                        {"name": "Trichoglossum hirsutum", "value": 1},
-                        {"name": "Trichoglossum walteri", "value": 1}
                     ]
                 },
                 {
@@ -4082,51 +3777,32 @@
                     "children": [
                         {"name": "Tricholoma acerbum", "value": 1},
                         {"name": "Tricholoma aestuans", "value": 1},
-                        {"name": "Tricholoma albidum", "value": 1},
-                        {"name": "Tricholoma albobrunneum", "value": 1},
-                        {"name": "Tricholoma album", "value": 1},
                         {"name": "Tricholoma atrosquamosum", "value": 1},
-                        {"name": "Tricholoma aurantiipes", "value": 1},
-                        {"name": "Tricholoma aurantium", "value": 1},
                         {"name": "Tricholoma bakamatsutake", "value": 1},
                         {"name": "Tricholoma caligatum", "value": 1},
                         {"name": "Tricholoma cingulatum", "value": 1},
-                        {"name": "Tricholoma colossus", "value": 1},
                         {"name": "Tricholoma columbetta", "value": 1},
-                        {"name": "Tricholoma equestre", "value": 1},
                         {"name": "Tricholoma evenosum", "value": 1},
                         {"name": "Tricholoma focale", "value": 1},
                         {"name": "Tricholoma fracticum", "value": 1},
                         {"name": "Tricholoma frondosae", "value": 1},
                         {"name": "Tricholoma fulvocastaneum", "value": 1},
-                        {"name": "Tricholoma fulvum", "value": 1},
                         {"name": "Tricholoma fusipes", "value": 1},
-                        {"name": "Tricholoma imbricatum", "value": 1},
                         {"name": "Tricholoma joachimii", "value": 1},
-                        {"name": "Tricholoma lascivum", "value": 1},
                         {"name": "Tricholoma luridum", "value": 1},
                         {"name": "Tricholoma magnivelare", "value": 1},
                         {"name": "Tricholoma matsutake", "value": 1},
-                        {"name": "Tricholoma mauritianum", "value": 1},
                         {"name": "Tricholoma mesoamericanum", "value": 1},
-                        {"name": "Tricholoma muscarium", "value": 1},
                         {"name": "Tricholoma orirubens", "value": 1},
-                        {"name": "Tricholoma pessundatum", "value": 1},
-                        {"name": "Tricholoma populinum", "value": 1},
                         {"name": "Tricholoma portentosum", "value": 1},
                         {"name": "Tricholoma psammopus", "value": 1},
                         {"name": "Tricholoma quercicola", "value": 1},
                         {"name": "Tricholoma radicans", "value": 1},
                         {"name": "Tricholoma robustum", "value": 1},
-                        {"name": "Tricholoma saponaceum", "value": 1},
                         {"name": "Tricholoma scabrum", "value": 1},
                         {"name": "Tricholoma scalpturatum", "value": 1},
-                        {"name": "Tricholoma sejunctum", "value": 1},
                         {"name": "Tricholoma sulphurescens", "value": 1},
-                        {"name": "Tricholoma sulphureum", "value": 1},
                         {"name": "Tricholoma terreum", "value": 1},
-                        {"name": "Tricholoma tigrinum", "value": 1},
-                        {"name": "Tricholoma ustale", "value": 1},
                         {"name": "Tricholoma ustaloides", "value": 1},
                         {"name": "Tricholoma vaccinum", "value": 1},
                         {"name": "Tricholoma virgatum", "value": 1},
@@ -4143,9 +3819,7 @@
                     "name": "Tricholomopsis",
                     "children": [
                         {"name": "Tricholomopsis aurea", "value": 1},
-                        {"name": "Tricholomopsis decora", "value": 1},
-                        {"name": "Tricholomopsis rutilans", "value": 1},
-                        {"name": "Tricholomopsis sasae", "value": 1}
+                        {"name": "Tricholomopsis decora", "value": 1}
                     ]
                 },
                 {
@@ -4167,24 +3841,65 @@
                     ]
                 },
                 {
-                    "name": "Truncospora",
-                    "children": [
-                        {"name": "Truncospora tephropora", "value": 1}
-                    ]
-                },
-                {
                     "name": "Tuber",
                     "children": [
+                        {"name": "Tuber aestivum", "value": 1},
+                        {"name": "Tuber borchii", "value": 1},
+                        {"name": "Tuber brumale", "value": 1},
+                        {"name": "Tuber californicum", "value": 1},
+                        {"name": "Tuber canaliculatum", "value": 1},
+                        {"name": "Tuber excavatum", "value": 1},
+                        {"name": "Tuber floridanum", "value": 1},
+                        {"name": "Tuber gibbosum", "value": 1},
+                        {"name": "Tuber gigantosporum", "value": 1},
+                        {"name": "Tuber glabrum", "value": 1},
+                        {"name": "Tuber hiemalbum", "value": 1},
+                        {"name": "Tuber huidongense", "value": 1},
+                        {"name": "Tuber indicum", "value": 1},
+                        {"name": "Tuber latisporum", "value": 1},
+                        {"name": "Tuber levissimum", "value": 1},
+                        {"name": "Tuber liaotongense", "value": 1},
+                        {"name": "Tuber lijiangense", "value": 1},
+                        {"name": "Tuber liyuanum", "value": 1},
+                        {"name": "Tuber macrosporum", "value": 1},
+                        {"name": "Tuber maculatum", "value": 1},
+                        {"name": "Tuber melanosporum", "value": 1},
+                        {"name": "Tuber mesentericum", "value": 1},
+                        {"name": "Tuber neoexcavatum", "value": 1},
+                        {"name": "Tuber oligospermum", "value": 1},
+                        {"name": "Tuber panzhihuanense", "value": 1},
+                        {"name": "Tuber pseudobrumale", "value": 1},
+                        {"name": "Tuber pseudoexcavatum", "value": 1},
+                        {"name": "Tuber pseudohimalayense", "value": 1},
+                        {"name": "Tuber pseudomagnatum", "value": 1},
+                        {"name": "Tuber pseudosphaerosporum", "value": 1},
+                        {"name": "Tuber rufum", "value": 1},
+                        {"name": "Tuber sinoaestivum", "value": 1},
+                        {"name": "Tuber sinoexcavatum", "value": 1},
+                        {"name": "Tuber sinosphaerosporum", "value": 1},
+                        {"name": "Tuber subglobosum", "value": 1},
+                        {"name": "Tuber taiyuanense", "value": 1},
+                        {"name": "Tuber texense", "value": 1},
+                        {"name": "Tuber uncinatum", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Tubosaeta",
                     "children": [
+                        {"name": "Tubosaeta brunneosetosa", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Tylopilus",
                     "children": [
+                        {"name": "Tylopilus alboater", "value": 1},
+                        {"name": "Tylopilus albofarinaceus", "value": 1},
+                        {"name": "Tylopilus areolatus", "value": 1},
+                        {"name": "Tylopilus atrobrunneus", "value": 1},
+                        {"name": "Tylopilus griseipurpureus", "value": 1},
+                        {"name": "Tylopilus plumbeoviolaceus", "value": 1},
+                        {"name": "Tylopilus pseudoballoui", "value": 1},
+                        {"name": "Tylopilus punctatofumosus", "value": 1}
                     ]
                 },
                 {
