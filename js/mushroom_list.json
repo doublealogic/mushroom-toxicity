@@ -4705,388 +4705,500 @@
             "name": "E3: Uncertain",
             "children": [
                 {
-                    "name": "Amylosporus",
+                    "name": "Abortiporus",
                     "children": [
+                        {"name": "Abortiporus biennis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Agaricus",
                     "children": [
+                        {"name": "Agaricus amicosus", "value": 1},
+                        {"name": "Agaricus argentinus", "value": 1},
+                        {"name": "Agaricus martineziensis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Agrocybe",
                     "children": [
+                        {"name": "Agrocybe perfecta", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Aleurodiscus",
                     "children": [
+                        {"name": "Aleurodiscus amorphus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Amanita",
                     "children": [
+                        {"name": "Amanita alboflavescens", "value": 1},
+                        {"name": "Amanita eijii", "value": 1},
+                        {"name": "Amanita griseofarinosa", "value": 1},
+                        {"name": "Amanita hongoi", "value": 1},
+                        {"name": "Amanita perpasta", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Amauroderma",
                     "children": [
+                        {"name": "Amauroderma aurantiacum", "value": 1},
+                        {"name": "Amauroderma subrugosum", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Anthracophyllum",
                     "children": [
+                        {"name": "Anthracophyllum nigritum", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Antrodia",
                     "children": [
+                        {"name": "Antrodia albida", "value": 1},
+                        {"name": "Antrodia heteromorpha", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Armillaria",
                     "children": [
+                        {"name": "Armillaria heimii", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Ascoclavulina",
                     "children": [
+                        {"name": "Ascoclavulina sakaii", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Ascocoryne",
                     "children": [
+                        {"name": "Ascocoryne cylichnium", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Asterophora",
                     "children": [
+                        {"name": "Asterophora lycoperdoides", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Astraeus",
                     "children": [
+                        {"name": "Astraeus koreanus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Atheniella",
                     "children": [
+                        {"name": "Atheniella adonis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Aureoboletus",
                     "children": [
+                        {"name": "Aureoboletus auriflammeus", "value": 1},
+                        {"name": "Aureoboletus longicollis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Austroboletus",
                     "children": [
+                        {"name": "Austroboletus fusisporus", "value": 1},
+                        {"name": "Austroboletus occidentalis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Bisporella",
                     "children": [
+                        {"name": "Bisporella citrina", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Bjerkandera",
                     "children": [
+                        {"name": "Bjerkandera adusta", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Bolbitius",
                     "children": [
+                        {"name": "Bolbitius reticulatus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Boletellus",
                     "children": [
+                        {"name": "Boletellus obscurecoccineus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Boletus",
                     "children": [
+                        {"name": "Boletus bouriquetii", "value": 1},
+                        {"name": "Boletus odaiensis", "value": 1},
+                        {"name": "Boletus umbriniporus", "value": 1},
+                        {"name": "Boletus viridis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Brunneoporus",
                     "children": [
+                        {"name": "Brunneoporus malicola", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Buglossoporus",
                     "children": [
+                        {"name": "Buglossoporus quercinus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Calcipostia",
                     "children": [
+                        {"name": "Calcipostia guttulata", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Caloscypha",
                     "children": [
+                        {"name": "Caloscypha fulgens", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Calostoma",
                     "children": [
+                        {"name": "Calostoma japonicum", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Calvatia",
                     "children": [
+                        {"name": "Calvatia rugosa", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Calyptella",
                     "children": [
+                        {"name": "Calyptella capula", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Campanella",
                     "children": [
+                        {"name": "Campanella junghuhnii", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cantharellus",
                     "children": [
+                        {"name": "Cantharellus madagascariensis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Ceraceomyces",
                     "children": [
+                        {"name": "Ceraceomyces tessulatus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cerioporus",
                     "children": [
+                        {"name": "Cerioporus mollis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cerrena",
                     "children": [
+                        {"name": "Cerrena unicolor", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Chlorencoelia",
                     "children": [
+                        {"name": "Chlorencoelia versiformis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Chlorociboria",
                     "children": [
+                        {"name": "Chlorociboria aeruginascens", "value": 1},
+                        {"name": "Chlorociboria aeruginosa", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Ciboria",
                     "children": [
+                        {"name": "Ciboria americana", "value": 1},
+                        {"name": "Ciboria batschiana", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Ciborinia",
                     "children": [
+                        {"name": "Ciborinia camelliae", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Clathrus",
                     "children": [
+                        {"name": "Clathrus columnatus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Clavaria",
                     "children": [
+                        {"name": "Clavaria acuta", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Clavulinopsis",
                     "children": [
+                        {"name": "Clavulinopsis luteoalba", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Climacodon",
                     "children": [
+                        {"name": "Climacodon pulcherrimus", "value": 1},
+                        {"name": "Climacodon roseomaculatus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Collybia",
                     "children": [
+                        {"name": "Collybia cookei", "value": 1},
+                        {"name": "Collybia neofusipes", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Coltricia",
                     "children": [
+                        {"name": "Coltricia cinnamomea", "value": 1},
+                        {"name": "Coltricia montagnei", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Coltriciella",
                     "children": [
+                        {"name": "Coltriciella dependens", "value": 1},
+                        {"name": "Coltriciella pusilla", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Coniophora",
                     "children": [
+                        {"name": "Coniophora puteana", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cookeina",
                     "children": [
+                        {"name": "Cookeina insititia", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Coprinopsis",
                     "children": [
+                        {"name": "Coprinopsis friesii", "value": 1},
+                        {"name": "Coprinopsis kimurae", "value": 1},
+                        {"name": "Coprinopsis lagopus", "value": 1},
+                        {"name": "Coprinopsis patouillardii", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cordierites",
                     "children": [
+                        {"name": "Cordierites frondosus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cordyceps",
                     "children": [
+                        {"name": "Cordyceps agriotidis", "value": 1},
+                        {"name": "Cordyceps farinosa", "value": 1},
+                        {"name": "Cordyceps nakazawae", "value": 1},
+                        {"name": "Cordyceps pruinosa", "value": 1},
+                        {"name": "Cordyceps roseostromata", "value": 1},
+                        {"name": "Cordyceps takaomontana", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Corticium",
                     "children": [
+                        {"name": "Corticium roseocarneum", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cortinarius",
                     "children": [
+                        {"name": "Cortinarius austrovenetus", "value": 1},
+                        {"name": "Cortinarius galeroides", "value": 1},
+                        {"name": "Cortinarius illibatus", "value": 1},
+                        {"name": "Cortinarius latus", "value": 1},
+                        {"name": "Cortinarius persplendidus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Crepidotus",
                     "children": [
+                        {"name": "Crepidotus badiofloccosus", "value": 1},
+                        {"name": "Crepidotus cesatii", "value": 1},
+                        {"name": "Crepidotus sulphurinus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Crinipellis",
                     "children": [
+                        {"name": "Crinipellis scabella", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Crucibulum",
                     "children": [
+                        {"name": "Crucibulum laeve", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Crucispora",
                     "children": [
+                        {"name": "Crucispora rhombisperma", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cryptoporus",
                     "children": [
+                        {"name": "Cryptoporus volvatus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cudonia",
                     "children": [
+                        {"name": "Cudonia circinans", "value": 1},
+                        {"name": "Cudonia japonica", "value": 1},
+                        {"name": "Cudonia lutea", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cudoniella",
                     "children": [
+                        {"name": "Cudoniella clavus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cuphophyllus",
                     "children": [
+                        {"name": "Cuphophyllus aurantius", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cyathus",
                     "children": [
+                        {"name": "Cyathus stercoreus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cyclomyces",
                     "children": [
+                        {"name": "Cyclomyces fuscus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cylindrobasidium",
                     "children": [
+                        {"name": "Cylindrobasidium argenteum", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cylindrosporus",
                     "children": [
+                        {"name": "Cylindrosporus flavidus", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cymatoderma",
                     "children": [
+                        {"name": "Cymatoderma elegans", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cyptotrama",
                     "children": [
+                        {"name": "Cyptotrama asprata", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cystoagaricus",
                     "children": [
+                        {"name": "Cystoagaricus strobilomyces", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cystoderma",
                     "children": [
+                        {"name": "Cystoderma neoamianthinum", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cystodermella",
                     "children": [
+                        {"name": "Cystodermella japonica", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Cytidia",
                     "children": [
+                        {"name": "Cytidia salicina", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Dacryopinax",
                     "children": [
+                        {"name": "Dacryopinax elegans", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Daedalea",
                     "children": [
+                        {"name": "Daedalea dickinsii", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Daedaleopsis",
                     "children": [
+                        {"name": "Daedaleopsis nipponica", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Dendrosphaera",
                     "children": [
+                        {"name": "Dendrosphaera eberhardtii", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Dicephalospora",
                     "children": [
+                        {"name": "Dicephalospora rufocornea", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Ditiola",
                     "children": [
+                        {"name": "Ditiola peziziformis", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Donadinia",
                     "children": [
+                        {"name": "Donadinia nigrella", "value": 1}
                     ]
                 },
                 {
-                    "name": "Amylosporus",
+                    "name": "Dumontinia",
                     "children": [
+                        {"name": "Dumontinia tuberosa", "value": 1}
                     ]
                 },
                 {
