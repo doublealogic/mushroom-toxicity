@@ -5563,6 +5563,651 @@
                     ]
                 },
                 {
+                    "name": "Lactarius",
+                    "children": [
+                        {"name": "Lactarius acris", "value": 1},
+                        {"name": "Lactarius subplinthogalus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lactifluus",
+                    "children": [
+                        {"name": "Lactifluus ochrogalactus", "value": 1},
+                        {"name": "Lactifluus uyedae", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lactocollybia",
+                    "children": [
+                        {"name": "Lactocollybia cycadicola", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Laternea",
+                    "children": [
+                        {"name": "Laternea columnata", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Leccinum",
+                    "children": [
+                        {"name": "Leccinum intusrubens", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lentinula",
+                    "children": [
+                        {"name": "Lentinula aciculospora", "value": 1},
+                        {"name": "Lentinula novae-zelandiae", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lenzites",
+                    "children": [
+                        {"name": "Lenzites styracinus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Leotia",
+                    "children": [
+                        {"name": "Leotia chlorocephala", "value": 1},
+                        {"name": "Leotia lubrica", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lepiota",
+                    "children": [
+                        {"name": "Lepiota candida", "value": 1},
+                        {"name": "Lepiota fusciceps", "value": 1},
+                        {"name": "Lepiota lilacea", "value": 1},
+                        {"name": "Lepiota praetervisa", "value": 1},
+                        {"name": "Lepiota pseudogranulosa", "value": 1},
+                        {"name": "Lepiota rabarijaonae", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Leucoagaricus",
+                    "children": [
+                        {"name": "Leucoagaricus roseoalbus", "value": 1},
+                        {"name": "Leucoagaricus rubrotinctus", "value": 1},
+                        {"name": "Leucocoprinus fragilissimus", "value": 1},
+                        {"name": "Leucocoprinus subglobisporus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lignosus",
+                    "children": [
+                        {"name": "Lignosus rhinocerus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lopharia",
+                    "children": [
+                        {"name": "Lopharia cinerascens", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lycoperdon",
+                    "children": [
+                        {"name": "Lycoperdon spadiceum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Lysurus",
+                    "children": [
+                        {"name": "Lysurus mokusin", "value": 1},
+                        {"name": "Lysurus periphragmoides", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Macrocystidia",
+                    "children": [
+                        {"name": "Macrocystidia cucumis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Marasmiellus",
+                    "children": [
+                        {"name": "Marasmiellus candidus", "value": 1},
+                        {"name": "Marasmiellus chamaecyparidis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Marasmius",
+                    "children": [
+                        {"name": "Marasmius graminum", "value": 1},
+                        {"name": "Marasmius pulcherripes", "value": 1},
+                        {"name": "Marasmius siccus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Melanogaster",
+                    "children": [
+                        {"name": "Melanogaster intermedius", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Melastiza",
+                    "children": [
+                        {"name": "Melastiza chateri", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Mesophellia",
+                    "children": [
+                        {"name": "Mesophellia trabalis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Metarhizium",
+                    "children": [
+                        {"name": "Metarhizium atrovirens", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Metuloidea",
+                    "children": [
+                        {"name": "Metuloidea murashkinskyi", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Microglossum",
+                    "children": [
+                        {"name": "Microglossum rufum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Microstoma",
+                    "children": [
+                        {"name": "Microstoma aggregatum", "value": 1},
+                        {"name": "Microstoma floccosum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Mitrula",
+                    "children": [
+                        {"name": "Mitrula paludosa", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Multiclavula",
+                    "children": [
+                        {"name": "Multiclavula clara", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Mutinus",
+                    "children": [
+                        {"name": "Mutinus borneensis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Mycena",
+                    "children": [
+                        {"name": "Mycena acicula", "value": 1},
+                        {"name": "Mycena arundinarialis", "value": 1},
+                        {"name": "Mycena chlorophos", "value": 1},
+                        {"name": "Mycena crocata", "value": 1},
+                        {"name": "Mycena epipterygia", "value": 1},
+                        {"name": "Mycena filopes", "value": 1},
+                        {"name": "Mycena laevigata", "value": 1},
+                        {"name": "Mycena leaiana", "value": 1},
+                        {"name": "Mycena luteopallens", "value": 1},
+                        {"name": "Mycena lux-coeli", "value": 1},
+                        {"name": "Mycena polygramma", "value": 1},
+                        {"name": "Mycena sanguinolenta", "value": 1},
+                        {"name": "Mycena silvae-nigrae", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Mycetinis",
+                    "children": [
+                        {"name": "Mycetinis prasiosmus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Neoantrodiella",
+                    "children": [
+                        {"name": "Neoantrodiella gypsea", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Neobulgaria",
+                    "children": [
+                        {"name": "Neobulgaria pura", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Neofavolus",
+                    "children": [
+                        {"name": "Neofavolus suavissimus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Nidula",
+                    "children": [
+                        {"name": "Nidula niveotomentosa", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Nigrofomes",
+                    "children": [
+                        {"name": "Nigrofomes melanoporus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Nigroporus",
+                    "children": [
+                        {"name": "Nigroporus vinosus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Niveoporofomes",
+                    "children": [
+                        {"name": "Niveoporofomes spraguei", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Octaviania",
+                    "children": [
+                        {"name": "Octaviania asterosperma", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Onygena",
+                    "children": [
+                        {"name": "Onygena corvina", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Ophiocordyceps",
+                    "children": [
+                        {"name": "Ophiocordyceps annulata", "value": 1},
+                        {"name": "Ophiocordyceps cicadellidicola", "value": 1},
+                        {"name": "Ophiocordyceps clavata", "value": 1},
+                        {"name": "Ophiocordyceps coccidiicola", "value": 1},
+                        {"name": "Ophiocordyceps crinalis", "value": 1},
+                        {"name": "Ophiocordyceps discoideicapitata", "value": 1},
+                        {"name": "Ophiocordyceps entomorrhiza", "value": 1},
+                        {"name": "Ophiocordyceps ferruginosa", "value": 1},
+                        {"name": "Ophiocordyceps gracilioides", "value": 1},
+                        {"name": "Ophiocordyceps heteropoda", "value": 1},
+                        {"name": "Ophiocordyceps japonensis", "value": 1},
+                        {"name": "Ophiocordyceps macularis", "value": 1},
+                        {"name": "Ophiocordyceps michiganensis", "value": 1},
+                        {"name": "Ophiocordyceps neovolkiana", "value": 1},
+                        {"name": "Ophiocordyceps nigripoda", "value": 1},
+                        {"name": "Ophiocordyceps nutans", "value": 1},
+                        {"name": "Ophiocordyceps purpureostromata", "value": 1},
+                        {"name": "Ophiocordyceps sphecocephala", "value": 1},
+                        {"name": "Ophiocordyceps stylophora", "value": 1},
+                        {"name": "Ophiocordyceps tricentri", "value": 1},
+                        {"name": "Ophiocordyceps yakusimensis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Orbilia",
+                    "children": [
+                        {"name": "Orbilia xanthostigma", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Osteina",
+                    "children": [
+                        {"name": "Osteina undosa", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Oxyporus",
+                    "children": [
+                        {"name": "Oxyporus cuneatus", "value": 1},
+                        {"name": "Oxyporus populinus", "value": 1},
+                        {"name": "Oxyporus ravidus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pachyella",
+                    "children": [
+                        {"name": "Pachyella clypeata", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Panaeolus",
+                    "children": [
+                        {"name": "Panaeolus solidipes", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Panellus",
+                    "children": [
+                        {"name": "Panellus pusillus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Parasola",
+                    "children": [
+                        {"name": "Parasola leiocephala", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Parvixerocomus",
+                    "children": [
+                        {"name": "Parvixerocomus aokii", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Penicilliopsis",
+                    "children": [
+                        {"name": "Penicilliopsis clavariiformis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Peniophora",
+                    "children": [
+                        {"name": "Peniophora quercina", "value": 1},
+                        {"name": "Peniophora versiformis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Peniophorella",
+                    "children": [
+                        {"name": "Peniophorella odontiiformis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Penttilamyces",
+                    "children": [
+                        {"name": "Penttilamyces olivascens", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Perenniporia",
+                    "children": [
+                        {"name": "Perenniporia fraxinea", "value": 1},
+                        {"name": "Perenniporia ochroleuca", "value": 1},
+                        {"name": "Perenniporia subacida", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Perenniporiopsis",
+                    "children": [
+                        {"name": "Perenniporiopsis minutissima", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Peziza",
+                    "children": [
+                        {"name": "Peziza domiciliana", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Phaeocollybia",
+                    "children": [
+                        {"name": "Phaeocollybia christinae", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Phaeolus",
+                    "children": [
+                        {"name": "Phaeolus manihotis", "value": 1},
+                        {"name": "Phaeolus schweinitzii", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Phallus",
+                    "children": [
+                        {"name": "Phallus armeniacus", "value": 1},
+                        {"name": "Phallus rugulosus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Phanerochaete",
+                    "children": [
+                        {"name": "Phanerochaete sordida", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Phellinopsis",
+                    "children": [
+                        {"name": "Phellinopsis conchata", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Phellinus",
+                    "children": [
+                        {"name": "Phellinus gilvus", "value": 1},
+                        {"name": "Phellinus laevigatus", "value": 1},
+                        {"name": "Phellinus pini", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Phlebia",
+                    "children": [
+                        {"name": "Phlebia coccineofulva", "value": 1},
+                        {"name": "Phlebia radiata", "value": 1},
+                        {"name": "Phlebia tremellosa", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Phlebiopsis",
+                    "children": [
+                        {"name": "Phlebiopsis crassa", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pholiota",
+                    "children": [
+                        {"name": "Pholiota malicola", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Piptoporellus",
+                    "children": [
+                        {"name": "Piptoporellus soloniensis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pistillaria",
+                    "children": [
+                        {"name": "Pistillaria petasitis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Plectania",
+                    "children": [
+                        {"name": "Plectania modesta", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pleurotus",
+                    "children": [
+                        {"name": "Pleurotus columbinus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pluteus",
+                    "children": [
+                        {"name": "Pluteus pantherinus", "value": 1},
+                        {"name": "Pluteus thomsonii", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Podaxis",
+                    "children": [
+                        {"name": "Podaxis carcinomalis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Podoserpula",
+                    "children": [
+                        {"name": "Podoserpula pusio", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Podostroma",
+                    "children": [
+                        {"name": "Podostroma giganteum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Polyporus",
+                    "children": [
+                        {"name": "Polyporus australiensis", "value": 1},
+                        {"name": "Polyporus croceoleucus", "value": 1},
+                        {"name": "Polyporus rugulosus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Porodisculus",
+                    "children": [
+                        {"name": "Porodisculus pendulus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Poronidulus",
+                    "children": [
+                        {"name": "Poronidulus conchifer", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Porostereum",
+                    "children": [
+                        {"name": "Porostereum spadiceum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Porphyrellus",
+                    "children": [
+                        {"name": "Porphyrellus fumosipes", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Propolis",
+                    "children": [
+                        {"name": "Propolis farinosa", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Psathyrella",
+                    "children": [
+                        {"name": "Psathyrella multissima", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pseudoaustroboletus",
+                    "children": [
+                        {"name": "Pseudoaustroboletus valens", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pseudoboletus",
+                    "children": [
+                        {"name": "Pseudoboletus astraeicola", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pseudofavolus",
+                    "children": [
+                        {"name": "Pseudofavolus tenuis", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pseudoinonotus",
+                    "children": [
+                        {"name": "Pseudoinonotus dryadeus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pseudomerulius",
+                    "children": [
+                        {"name": "Pseudomerulius aureus", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pseudoplectania",
+                    "children": [
+                        {"name": "Pseudoplectania melaena", "value": 1},
+                        {"name": "Pseudoplectania nigrella", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pseudotulostoma",
+                    "children": [
+                        {"name": "Pseudotulostoma japonicum", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pterula",
+                    "children": [
+                        {"name": "Pterula subulata", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pulveroboletus",
+                    "children": [
+                        {"name": "Pulveroboletus sinapicolor", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Purpureocillium",
+                    "children": [
+                        {"name": "Purpureocillium atypicola", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pycnoporellus",
+                    "children": [
+                        {"name": "Pycnoporellus fulgens", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Pyrrhoderma",
+                    "children": [
+                        {"name": "Pyrrhoderma noxium", "value": 1},
+                        {"name": "Pyrrhoderma sendaiense", "value": 1}
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
+                    "name": "Amylosporus",
+                    "children": [
+                    ]
+                },
+                {
                     "name": "Amylosporus",
                     "children": [
                     ]
