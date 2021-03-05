@@ -13099,10 +13099,10 @@ div#notebook {
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Requirement already up-to-date: sklearn in c:\users\bever\anaconda3\envs\pythondata\lib\site-packages (0.0)
 Requirement already satisfied, skipping upgrade: scikit-learn in c:\users\bever\anaconda3\envs\pythondata\lib\site-packages (from sklearn) (0.23.1)
-Requirement already satisfied, skipping upgrade: joblib&gt;=0.11 in c:\users\bever\anaconda3\envs\pythondata\lib\site-packages (from scikit-learn-&gt;sklearn) (0.16.0)
 Requirement already satisfied, skipping upgrade: numpy&gt;=1.13.3 in c:\users\bever\anaconda3\envs\pythondata\lib\site-packages (from scikit-learn-&gt;sklearn) (1.17.0)
 Requirement already satisfied, skipping upgrade: scipy&gt;=0.19.1 in c:\users\bever\anaconda3\envs\pythondata\lib\site-packages (from scikit-learn-&gt;sklearn) (1.5.0)
 Requirement already satisfied, skipping upgrade: threadpoolctl&gt;=2.0.0 in c:\users\bever\anaconda3\envs\pythondata\lib\site-packages (from scikit-learn-&gt;sklearn) (2.1.0)
+Requirement already satisfied, skipping upgrade: joblib&gt;=0.11 in c:\users\bever\anaconda3\envs\pythondata\lib\site-packages (from scikit-learn-&gt;sklearn) (0.16.0)
 </pre>
 </div>
 </div>
@@ -17513,7 +17513,7 @@ Feature 21 - habitat, Score: -0.030198412655210418
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Scaling">Scaling<a class="anchor-link" href="#Scaling">&#182;</a></h1><p>Scale the data using the MinMaxScaler and perform some feature selection</p>
+<h1 id="Create-a-Train-Test-Split">Create a Train Test Split<a class="anchor-link" href="#Create-a-Train-Test-Split">&#182;</a></h1><p>Use <code>class</code> for the y (target) values</p>
 
 </div>
 </div>
@@ -17523,9 +17523,7 @@ Feature 21 - habitat, Score: -0.030198412655210418
 <div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># # Scale your data</span>
-<span class="n">X_scaler</span> <span class="o">=</span> <span class="n">MinMaxScaler</span><span class="p">()</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<span class="n">X_scaled</span> <span class="o">=</span> <span class="n">X_scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -17538,7 +17536,7 @@ Feature 21 - habitat, Score: -0.030198412655210418
 <div class="prompt input_prompt">In&nbsp;[69]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">selected_features_names</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -17552,62 +17550,6 @@ Feature 21 - habitat, Score: -0.030198412655210418
 <div class="output_area">
 
     <div class="prompt output_prompt">Out[69]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Index([&#39;bruises&#39;, &#39;gill-attachment&#39;, &#39;gill-spacing&#39;, &#39;gill-size&#39;, &#39;stalk-root&#39;,
-       &#39;veil-color&#39;, &#39;ring-number&#39;],
-      dtype=&#39;object&#39;)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Create-a-Train-Test-Split">Create a Train Test Split<a class="anchor-link" href="#Create-a-Train-Test-Split">&#182;</a></h1><p>Use <code>class</code> for the y (target) values</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train_scaled</span><span class="p">,</span> <span class="n">X_test_scaled</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train_scaled</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[71]:</div>
 
 
 
@@ -17703,10 +17645,10 @@ Feature 21 - habitat, Score: -0.030198412655210418
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[70]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test_scaled</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -17719,7 +17661,7 @@ Feature 21 - habitat, Score: -0.030198412655210418
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[72]:</div>
+    <div class="prompt output_prompt">Out[70]:</div>
 
 
 
@@ -17815,7 +17757,7 @@ Feature 21 - habitat, Score: -0.030198412655210418
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_train</span>
@@ -17831,7 +17773,7 @@ Feature 21 - habitat, Score: -0.030198412655210418
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[73]:</div>
+    <div class="prompt output_prompt">Out[71]:</div>
 
 
 
@@ -17848,10 +17790,67 @@ Feature 21 - habitat, Score: -0.030198412655210418
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_test</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[72]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([0, 1, 1, ..., 0, 0, 1])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Scaling">Scaling<a class="anchor-link" href="#Scaling">&#182;</a></h1><p>Scale the data using the MinMaxScaler and perform some feature selection</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Scale your data</span>
+<span class="n">X_scaler</span> <span class="o">=</span> <span class="n">MinMaxScaler</span><span class="p">()</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_train_scaled</span> <span class="o">=</span> <span class="n">X_scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_test_scaled</span> <span class="o">=</span> <span class="n">X_scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">selected_features_names</span>
 </pre></div>
 
     </div>
@@ -17870,7 +17869,9 @@ Feature 21 - habitat, Score: -0.030198412655210418
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([0, 1, 1, ..., 0, 0, 1])</pre>
+<pre>Index([&#39;bruises&#39;, &#39;gill-attachment&#39;, &#39;gill-spacing&#39;, &#39;gill-size&#39;, &#39;stalk-root&#39;,
+       &#39;veil-color&#39;, &#39;ring-number&#39;],
+      dtype=&#39;object&#39;)</pre>
 </div>
 
 </div>
@@ -18060,7 +18061,7 @@ Testing Data Score: 0.946824224519941
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.950, total=   0.2s
+<pre>[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.950, total=   0.3s
 [CV] max_depth=10, max_features=auto, n_estimators=50 ................
 </pre>
 </div>
@@ -18072,7 +18073,7 @@ Testing Data Score: 0.946824224519941
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+<pre>[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
 </pre>
 </div>
 </div>
@@ -18083,7 +18084,7 @@ Testing Data Score: 0.946824224519941
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.949, total=   0.2s
+<pre>[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.949, total=   0.3s
 [CV] max_depth=10, max_features=auto, n_estimators=50 ................
 </pre>
 </div>
@@ -18106,33 +18107,33 @@ Testing Data Score: 0.946824224519941
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.947, total=   0.2s
+<pre>[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.947, total=   0.3s
 [CV] max_depth=10, max_features=auto, n_estimators=50 ................
-[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.956, total=   0.3s
+[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.956, total=   0.2s
 [CV] max_depth=10, max_features=auto, n_estimators=50 ................
-[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.939, total=   0.2s
+[CV]  max_depth=10, max_features=auto, n_estimators=50, score=0.939, total=   0.3s
 [CV] max_depth=10, max_features=auto, n_estimators=100 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=100, score=0.950, total=   0.4s
 [CV] max_depth=10, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=100, score=0.949, total=   0.4s
+[CV]  max_depth=10, max_features=auto, n_estimators=100, score=0.949, total=   0.3s
 [CV] max_depth=10, max_features=auto, n_estimators=100 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=100, score=0.947, total=   0.4s
 [CV] max_depth=10, max_features=auto, n_estimators=100 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=100, score=0.956, total=   0.4s
 [CV] max_depth=10, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=100, score=0.939, total=   0.4s
+[CV]  max_depth=10, max_features=auto, n_estimators=100, score=0.939, total=   0.3s
 [CV] max_depth=10, max_features=auto, n_estimators=150 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=150, score=0.950, total=   0.6s
 [CV] max_depth=10, max_features=auto, n_estimators=150 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=150, score=0.949, total=   0.6s
 [CV] max_depth=10, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=150, score=0.947, total=   0.6s
+[CV]  max_depth=10, max_features=auto, n_estimators=150, score=0.947, total=   0.5s
 [CV] max_depth=10, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=150, score=0.956, total=   0.7s
+[CV]  max_depth=10, max_features=auto, n_estimators=150, score=0.956, total=   0.5s
 [CV] max_depth=10, max_features=auto, n_estimators=150 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=150, score=0.939, total=   0.6s
 [CV] max_depth=10, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=200, score=0.950, total=   0.9s
+[CV]  max_depth=10, max_features=auto, n_estimators=200, score=0.950, total=   0.8s
 [CV] max_depth=10, max_features=auto, n_estimators=200 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=200, score=0.949, total=   0.8s
 [CV] max_depth=10, max_features=auto, n_estimators=200 ...............
@@ -18140,19 +18141,19 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=10, max_features=auto, n_estimators=200 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=200, score=0.956, total=   0.9s
 [CV] max_depth=10, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=200, score=0.939, total=   0.8s
+[CV]  max_depth=10, max_features=auto, n_estimators=200, score=0.939, total=   1.0s
 [CV] max_depth=10, max_features=auto, n_estimators=250 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=250, score=0.950, total=   1.1s
 [CV] max_depth=10, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=250, score=0.949, total=   1.1s
+[CV]  max_depth=10, max_features=auto, n_estimators=250, score=0.949, total=   0.9s
 [CV] max_depth=10, max_features=auto, n_estimators=250 ...............
 [CV]  max_depth=10, max_features=auto, n_estimators=250, score=0.947, total=   0.9s
 [CV] max_depth=10, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=250, score=0.956, total=   1.0s
+[CV]  max_depth=10, max_features=auto, n_estimators=250, score=0.956, total=   0.8s
 [CV] max_depth=10, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=auto, n_estimators=250, score=0.939, total=   1.0s
+[CV]  max_depth=10, max_features=auto, n_estimators=250, score=0.939, total=   0.8s
 [CV] max_depth=10, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=10, max_features=sqrt, n_estimators=50, score=0.950, total=   0.2s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=50, score=0.950, total=   0.1s
 [CV] max_depth=10, max_features=sqrt, n_estimators=50 ................
 [CV]  max_depth=10, max_features=sqrt, n_estimators=50, score=0.949, total=   0.2s
 [CV] max_depth=10, max_features=sqrt, n_estimators=50 ................
@@ -18162,45 +18163,45 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=10, max_features=sqrt, n_estimators=50 ................
 [CV]  max_depth=10, max_features=sqrt, n_estimators=50, score=0.939, total=   0.2s
 [CV] max_depth=10, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.950, total=   0.4s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.950, total=   0.3s
 [CV] max_depth=10, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.949, total=   0.4s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.949, total=   0.3s
 [CV] max_depth=10, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.947, total=   0.4s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.947, total=   0.3s
 [CV] max_depth=10, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.956, total=   0.5s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.956, total=   0.3s
 [CV] max_depth=10, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.939, total=   0.5s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=100, score=0.939, total=   0.3s
 [CV] max_depth=10, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.950, total=   0.7s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.950, total=   0.5s
 [CV] max_depth=10, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.949, total=   0.7s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.949, total=   0.5s
 [CV] max_depth=10, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.947, total=   0.7s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.947, total=   0.5s
 [CV] max_depth=10, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.956, total=   0.7s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.956, total=   0.5s
 [CV] max_depth=10, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.939, total=   0.6s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=150, score=0.939, total=   0.5s
 [CV] max_depth=10, max_features=sqrt, n_estimators=200 ...............
 [CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.950, total=   0.7s
 [CV] max_depth=10, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.949, total=   0.6s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.949, total=   0.7s
 [CV] max_depth=10, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.947, total=   1.1s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.947, total=   0.6s
 [CV] max_depth=10, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.956, total=   0.8s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.956, total=   0.7s
 [CV] max_depth=10, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.939, total=   0.8s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=200, score=0.939, total=   0.6s
 [CV] max_depth=10, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.950, total=   1.1s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.950, total=   1.0s
 [CV] max_depth=10, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.949, total=   1.1s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.949, total=   0.8s
 [CV] max_depth=10, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.947, total=   1.0s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.947, total=   0.9s
 [CV] max_depth=10, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.956, total=   1.1s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.956, total=   1.2s
 [CV] max_depth=10, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.939, total=   1.1s
+[CV]  max_depth=10, max_features=sqrt, n_estimators=250, score=0.939, total=   1.0s
 [CV] max_depth=10, max_features=log2, n_estimators=50 ................
 [CV]  max_depth=10, max_features=log2, n_estimators=50, score=0.950, total=   0.2s
 [CV] max_depth=10, max_features=log2, n_estimators=50 ................
@@ -18208,53 +18209,53 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=10, max_features=log2, n_estimators=50 ................
 [CV]  max_depth=10, max_features=log2, n_estimators=50, score=0.947, total=   0.2s
 [CV] max_depth=10, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=10, max_features=log2, n_estimators=50, score=0.956, total=   0.3s
+[CV]  max_depth=10, max_features=log2, n_estimators=50, score=0.956, total=   0.2s
 [CV] max_depth=10, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=10, max_features=log2, n_estimators=50, score=0.939, total=   0.3s
+[CV]  max_depth=10, max_features=log2, n_estimators=50, score=0.939, total=   0.2s
 [CV] max_depth=10, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.950, total=   0.4s
+[CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.950, total=   0.3s
 [CV] max_depth=10, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.949, total=   0.4s
+[CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.949, total=   0.3s
 [CV] max_depth=10, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.947, total=   0.5s
+[CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.947, total=   0.3s
 [CV] max_depth=10, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.956, total=   0.4s
+[CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.956, total=   0.3s
 [CV] max_depth=10, max_features=log2, n_estimators=100 ...............
 [CV]  max_depth=10, max_features=log2, n_estimators=100, score=0.939, total=   0.4s
 [CV] max_depth=10, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.950, total=   0.7s
+[CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.950, total=   0.6s
 [CV] max_depth=10, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.949, total=   0.7s
+[CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.949, total=   0.5s
 [CV] max_depth=10, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.947, total=   0.7s
+[CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.947, total=   0.6s
 [CV] max_depth=10, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.956, total=   0.7s
+[CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.956, total=   0.6s
 [CV] max_depth=10, max_features=log2, n_estimators=150 ...............
 [CV]  max_depth=10, max_features=log2, n_estimators=150, score=0.939, total=   0.7s
 [CV] max_depth=10, max_features=log2, n_estimators=200 ...............
 [CV]  max_depth=10, max_features=log2, n_estimators=200, score=0.950, total=   0.8s
 [CV] max_depth=10, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=200, score=0.949, total=   0.9s
+[CV]  max_depth=10, max_features=log2, n_estimators=200, score=0.949, total=   0.8s
 [CV] max_depth=10, max_features=log2, n_estimators=200 ...............
 [CV]  max_depth=10, max_features=log2, n_estimators=200, score=0.947, total=   0.8s
 [CV] max_depth=10, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=200, score=0.956, total=   0.9s
+[CV]  max_depth=10, max_features=log2, n_estimators=200, score=0.956, total=   0.8s
 [CV] max_depth=10, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=200, score=0.939, total=   0.9s
+[CV]  max_depth=10, max_features=log2, n_estimators=200, score=0.939, total=   0.7s
 [CV] max_depth=10, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.950, total=   1.0s
+[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.950, total=   0.9s
 [CV] max_depth=10, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.949, total=   1.1s
+[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.949, total=   0.9s
 [CV] max_depth=10, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.947, total=   1.1s
+[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.947, total=   0.8s
 [CV] max_depth=10, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.956, total=   1.0s
+[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.956, total=   0.9s
 [CV] max_depth=10, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.939, total=   1.0s
+[CV]  max_depth=10, max_features=log2, n_estimators=250, score=0.939, total=   0.8s
 [CV] max_depth=20, max_features=auto, n_estimators=50 ................
-[CV]  max_depth=20, max_features=auto, n_estimators=50, score=0.950, total=   0.2s
+[CV]  max_depth=20, max_features=auto, n_estimators=50, score=0.950, total=   0.3s
 [CV] max_depth=20, max_features=auto, n_estimators=50 ................
-[CV]  max_depth=20, max_features=auto, n_estimators=50, score=0.949, total=   0.3s
+[CV]  max_depth=20, max_features=auto, n_estimators=50, score=0.949, total=   0.2s
 [CV] max_depth=20, max_features=auto, n_estimators=50 ................
 [CV]  max_depth=20, max_features=auto, n_estimators=50, score=0.947, total=   0.2s
 [CV] max_depth=20, max_features=auto, n_estimators=50 ................
@@ -18264,45 +18265,45 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=20, max_features=auto, n_estimators=100 ...............
 [CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.950, total=   0.4s
 [CV] max_depth=20, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.949, total=   0.5s
+[CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.949, total=   0.4s
 [CV] max_depth=20, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.947, total=   0.5s
+[CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.947, total=   0.3s
 [CV] max_depth=20, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.956, total=   0.4s
+[CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.956, total=   0.3s
 [CV] max_depth=20, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.939, total=   0.5s
+[CV]  max_depth=20, max_features=auto, n_estimators=100, score=0.939, total=   0.4s
 [CV] max_depth=20, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.950, total=   0.7s
+[CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.950, total=   0.5s
 [CV] max_depth=20, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.949, total=   0.7s
+[CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.949, total=   0.5s
 [CV] max_depth=20, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.947, total=   0.7s
+[CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.947, total=   0.6s
 [CV] max_depth=20, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.956, total=   0.6s
+[CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.956, total=   0.5s
 [CV] max_depth=20, max_features=auto, n_estimators=150 ...............
 [CV]  max_depth=20, max_features=auto, n_estimators=150, score=0.939, total=   0.7s
 [CV] max_depth=20, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.950, total=   0.9s
+[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.950, total=   0.8s
 [CV] max_depth=20, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.949, total=   0.9s
+[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.949, total=   0.8s
 [CV] max_depth=20, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.947, total=   0.9s
+[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.947, total=   0.7s
 [CV] max_depth=20, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.956, total=   0.8s
+[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.956, total=   0.7s
 [CV] max_depth=20, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.939, total=   0.9s
+[CV]  max_depth=20, max_features=auto, n_estimators=200, score=0.939, total=   0.7s
 [CV] max_depth=20, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.950, total=   1.1s
+[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.950, total=   0.9s
 [CV] max_depth=20, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.949, total=   1.0s
+[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.949, total=   0.8s
 [CV] max_depth=20, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.947, total=   1.2s
+[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.947, total=   0.8s
 [CV] max_depth=20, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.956, total=   1.2s
+[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.956, total=   0.8s
 [CV] max_depth=20, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.939, total=   1.1s
+[CV]  max_depth=20, max_features=auto, n_estimators=250, score=0.939, total=   0.8s
 [CV] max_depth=20, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=20, max_features=sqrt, n_estimators=50, score=0.950, total=   0.2s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=50, score=0.950, total=   0.1s
 [CV] max_depth=20, max_features=sqrt, n_estimators=50 ................
 [CV]  max_depth=20, max_features=sqrt, n_estimators=50, score=0.949, total=   0.2s
 [CV] max_depth=20, max_features=sqrt, n_estimators=50 ................
@@ -18310,153 +18311,153 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=20, max_features=sqrt, n_estimators=50 ................
 [CV]  max_depth=20, max_features=sqrt, n_estimators=50, score=0.956, total=   0.2s
 [CV] max_depth=20, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=20, max_features=sqrt, n_estimators=50, score=0.939, total=   0.3s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=50, score=0.939, total=   0.2s
 [CV] max_depth=20, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.950, total=   0.4s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.950, total=   0.3s
 [CV] max_depth=20, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.949, total=   0.4s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.949, total=   0.3s
 [CV] max_depth=20, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.947, total=   0.5s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.947, total=   0.4s
 [CV] max_depth=20, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.956, total=   0.5s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.956, total=   0.4s
 [CV] max_depth=20, max_features=sqrt, n_estimators=100 ...............
 [CV]  max_depth=20, max_features=sqrt, n_estimators=100, score=0.939, total=   0.4s
 [CV] max_depth=20, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.950, total=   0.7s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.950, total=   0.6s
 [CV] max_depth=20, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.949, total=   0.6s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.949, total=   0.5s
 [CV] max_depth=20, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.947, total=   0.7s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.947, total=   0.4s
 [CV] max_depth=20, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.956, total=   0.6s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.956, total=   0.7s
 [CV] max_depth=20, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.939, total=   0.7s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=150, score=0.939, total=   0.5s
 [CV] max_depth=20, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.950, total=   0.9s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.950, total=   0.7s
 [CV] max_depth=20, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.949, total=   0.9s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.949, total=   0.7s
 [CV] max_depth=20, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.947, total=   0.9s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.947, total=   0.8s
 [CV] max_depth=20, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.956, total=   0.9s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.956, total=   0.7s
 [CV] max_depth=20, max_features=sqrt, n_estimators=200 ...............
 [CV]  max_depth=20, max_features=sqrt, n_estimators=200, score=0.939, total=   0.9s
 [CV] max_depth=20, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.950, total=   1.0s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.950, total=   1.5s
 [CV] max_depth=20, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.949, total=   1.1s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.949, total=   1.2s
 [CV] max_depth=20, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.947, total=   0.9s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.947, total=   1.0s
 [CV] max_depth=20, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.956, total=   0.9s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.956, total=   1.1s
 [CV] max_depth=20, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.939, total=   1.1s
+[CV]  max_depth=20, max_features=sqrt, n_estimators=250, score=0.939, total=   1.3s
 [CV] max_depth=20, max_features=log2, n_estimators=50 ................
 [CV]  max_depth=20, max_features=log2, n_estimators=50, score=0.950, total=   0.2s
 [CV] max_depth=20, max_features=log2, n_estimators=50 ................
 [CV]  max_depth=20, max_features=log2, n_estimators=50, score=0.949, total=   0.2s
 [CV] max_depth=20, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=20, max_features=log2, n_estimators=50, score=0.947, total=   0.3s
+[CV]  max_depth=20, max_features=log2, n_estimators=50, score=0.947, total=   0.2s
 [CV] max_depth=20, max_features=log2, n_estimators=50 ................
 [CV]  max_depth=20, max_features=log2, n_estimators=50, score=0.956, total=   0.2s
 [CV] max_depth=20, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=20, max_features=log2, n_estimators=50, score=0.939, total=   0.2s
+[CV]  max_depth=20, max_features=log2, n_estimators=50, score=0.939, total=   0.3s
 [CV] max_depth=20, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=100, score=0.950, total=   0.4s
+[CV]  max_depth=20, max_features=log2, n_estimators=100, score=0.950, total=   0.3s
 [CV] max_depth=20, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=100, score=0.949, total=   0.6s
+[CV]  max_depth=20, max_features=log2, n_estimators=100, score=0.949, total=   0.3s
 [CV] max_depth=20, max_features=log2, n_estimators=100 ...............
 [CV]  max_depth=20, max_features=log2, n_estimators=100, score=0.947, total=   0.4s
 [CV] max_depth=20, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=100, score=0.956, total=   0.4s
+[CV]  max_depth=20, max_features=log2, n_estimators=100, score=0.956, total=   0.5s
 [CV] max_depth=20, max_features=log2, n_estimators=100 ...............
 [CV]  max_depth=20, max_features=log2, n_estimators=100, score=0.939, total=   0.4s
 [CV] max_depth=20, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.950, total=   0.7s
+[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.950, total=   0.9s
 [CV] max_depth=20, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.949, total=   0.6s
+[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.949, total=   0.9s
 [CV] max_depth=20, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.947, total=   0.6s
+[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.947, total=   1.0s
 [CV] max_depth=20, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.956, total=   0.6s
+[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.956, total=   0.8s
 [CV] max_depth=20, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.939, total=   0.7s
+[CV]  max_depth=20, max_features=log2, n_estimators=150, score=0.939, total=   0.8s
 [CV] max_depth=20, max_features=log2, n_estimators=200 ...............
 [CV]  max_depth=20, max_features=log2, n_estimators=200, score=0.950, total=   0.8s
 [CV] max_depth=20, max_features=log2, n_estimators=200 ...............
 [CV]  max_depth=20, max_features=log2, n_estimators=200, score=0.949, total=   0.9s
 [CV] max_depth=20, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=200, score=0.947, total=   1.0s
+[CV]  max_depth=20, max_features=log2, n_estimators=200, score=0.947, total=   0.9s
 [CV] max_depth=20, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=200, score=0.956, total=   0.8s
+[CV]  max_depth=20, max_features=log2, n_estimators=200, score=0.956, total=   1.0s
 [CV] max_depth=20, max_features=log2, n_estimators=200 ...............
 [CV]  max_depth=20, max_features=log2, n_estimators=200, score=0.939, total=   0.9s
 [CV] max_depth=20, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.950, total=   1.2s
+[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.950, total=   1.4s
 [CV] max_depth=20, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.949, total=   1.0s
+[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.949, total=   1.2s
 [CV] max_depth=20, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.947, total=   1.1s
+[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.947, total=   1.3s
 [CV] max_depth=20, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.956, total=   1.1s
+[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.956, total=   1.3s
 [CV] max_depth=20, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.939, total=   1.2s
+[CV]  max_depth=20, max_features=log2, n_estimators=250, score=0.939, total=   1.6s
 [CV] max_depth=30, max_features=auto, n_estimators=50 ................
-[CV]  max_depth=30, max_features=auto, n_estimators=50, score=0.950, total=   0.2s
+[CV]  max_depth=30, max_features=auto, n_estimators=50, score=0.950, total=   0.3s
 [CV] max_depth=30, max_features=auto, n_estimators=50 ................
-[CV]  max_depth=30, max_features=auto, n_estimators=50, score=0.949, total=   0.2s
+[CV]  max_depth=30, max_features=auto, n_estimators=50, score=0.949, total=   0.3s
 [CV] max_depth=30, max_features=auto, n_estimators=50 ................
 [CV]  max_depth=30, max_features=auto, n_estimators=50, score=0.947, total=   0.3s
 [CV] max_depth=30, max_features=auto, n_estimators=50 ................
 [CV]  max_depth=30, max_features=auto, n_estimators=50, score=0.956, total=   0.2s
 [CV] max_depth=30, max_features=auto, n_estimators=50 ................
-[CV]  max_depth=30, max_features=auto, n_estimators=50, score=0.939, total=   0.2s
+[CV]  max_depth=30, max_features=auto, n_estimators=50, score=0.939, total=   0.3s
 [CV] max_depth=30, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.950, total=   0.5s
+[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.950, total=   0.6s
 [CV] max_depth=30, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.949, total=   0.5s
+[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.949, total=   0.6s
 [CV] max_depth=30, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.947, total=   0.6s
+[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.947, total=   0.5s
 [CV] max_depth=30, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.956, total=   0.5s
+[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.956, total=   0.6s
 [CV] max_depth=30, max_features=auto, n_estimators=100 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.939, total=   0.4s
+[CV]  max_depth=30, max_features=auto, n_estimators=100, score=0.939, total=   0.6s
 [CV] max_depth=30, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.950, total=   0.7s
+[CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.950, total=   1.3s
 [CV] max_depth=30, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.949, total=   0.6s
+[CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.949, total=   1.4s
 [CV] max_depth=30, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.947, total=   0.7s
+[CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.947, total=   1.0s
 [CV] max_depth=30, max_features=auto, n_estimators=150 ...............
 [CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.956, total=   0.6s
 [CV] max_depth=30, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.939, total=   0.7s
+[CV]  max_depth=30, max_features=auto, n_estimators=150, score=0.939, total=   0.6s
 [CV] max_depth=30, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.950, total=   0.8s
+[CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.950, total=   1.0s
 [CV] max_depth=30, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.949, total=   0.8s
+[CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.949, total=   0.9s
 [CV] max_depth=30, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.947, total=   0.8s
+[CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.947, total=   1.1s
 [CV] max_depth=30, max_features=auto, n_estimators=200 ...............
 [CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.956, total=   0.9s
 [CV] max_depth=30, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.939, total=   0.8s
+[CV]  max_depth=30, max_features=auto, n_estimators=200, score=0.939, total=   0.9s
 [CV] max_depth=30, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=250, score=0.950, total=   1.0s
+[CV]  max_depth=30, max_features=auto, n_estimators=250, score=0.950, total=   1.2s
 [CV] max_depth=30, max_features=auto, n_estimators=250 ...............
 [CV]  max_depth=30, max_features=auto, n_estimators=250, score=0.949, total=   1.1s
 [CV] max_depth=30, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=250, score=0.947, total=   1.3s
+[CV]  max_depth=30, max_features=auto, n_estimators=250, score=0.947, total=   1.0s
 [CV] max_depth=30, max_features=auto, n_estimators=250 ...............
 [CV]  max_depth=30, max_features=auto, n_estimators=250, score=0.956, total=   1.1s
 [CV] max_depth=30, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=auto, n_estimators=250, score=0.939, total=   1.0s
+[CV]  max_depth=30, max_features=auto, n_estimators=250, score=0.939, total=   1.2s
 [CV] max_depth=30, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=30, max_features=sqrt, n_estimators=50, score=0.950, total=   0.3s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=50, score=0.950, total=   0.2s
 [CV] max_depth=30, max_features=sqrt, n_estimators=50 ................
 [CV]  max_depth=30, max_features=sqrt, n_estimators=50, score=0.949, total=   0.2s
 [CV] max_depth=30, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=30, max_features=sqrt, n_estimators=50, score=0.947, total=   0.2s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=50, score=0.947, total=   0.3s
 [CV] max_depth=30, max_features=sqrt, n_estimators=50 ................
 [CV]  max_depth=30, max_features=sqrt, n_estimators=50, score=0.956, total=   0.2s
 [CV] max_depth=30, max_features=sqrt, n_estimators=50 ................
@@ -18470,7 +18471,7 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=30, max_features=sqrt, n_estimators=100 ...............
 [CV]  max_depth=30, max_features=sqrt, n_estimators=100, score=0.956, total=   0.4s
 [CV] max_depth=30, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=100, score=0.939, total=   0.5s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=100, score=0.939, total=   0.4s
 [CV] max_depth=30, max_features=sqrt, n_estimators=150 ...............
 [CV]  max_depth=30, max_features=sqrt, n_estimators=150, score=0.950, total=   0.7s
 [CV] max_depth=30, max_features=sqrt, n_estimators=150 ...............
@@ -18478,29 +18479,29 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=30, max_features=sqrt, n_estimators=150 ...............
 [CV]  max_depth=30, max_features=sqrt, n_estimators=150, score=0.947, total=   0.7s
 [CV] max_depth=30, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=150, score=0.956, total=   0.7s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=150, score=0.956, total=   0.6s
 [CV] max_depth=30, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=150, score=0.939, total=   0.6s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=150, score=0.939, total=   0.7s
 [CV] max_depth=30, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.950, total=   0.8s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.950, total=   0.9s
 [CV] max_depth=30, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.949, total=   0.8s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.949, total=   0.9s
 [CV] max_depth=30, max_features=sqrt, n_estimators=200 ...............
 [CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.947, total=   0.9s
 [CV] max_depth=30, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.956, total=   0.8s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.956, total=   0.9s
 [CV] max_depth=30, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.939, total=   0.8s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=200, score=0.939, total=   1.0s
 [CV] max_depth=30, max_features=sqrt, n_estimators=250 ...............
 [CV]  max_depth=30, max_features=sqrt, n_estimators=250, score=0.950, total=   1.1s
 [CV] max_depth=30, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=250, score=0.949, total=   1.0s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=250, score=0.949, total=   1.1s
 [CV] max_depth=30, max_features=sqrt, n_estimators=250 ...............
 [CV]  max_depth=30, max_features=sqrt, n_estimators=250, score=0.947, total=   1.1s
 [CV] max_depth=30, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=250, score=0.956, total=   1.0s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=250, score=0.956, total=   1.2s
 [CV] max_depth=30, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=sqrt, n_estimators=250, score=0.939, total=   1.0s
+[CV]  max_depth=30, max_features=sqrt, n_estimators=250, score=0.939, total=   1.1s
 [CV] max_depth=30, max_features=log2, n_estimators=50 ................
 [CV]  max_depth=30, max_features=log2, n_estimators=50, score=0.950, total=   0.2s
 [CV] max_depth=30, max_features=log2, n_estimators=50 ................
@@ -18512,9 +18513,9 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=30, max_features=log2, n_estimators=50 ................
 [CV]  max_depth=30, max_features=log2, n_estimators=50, score=0.939, total=   0.3s
 [CV] max_depth=30, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=100, score=0.950, total=   0.5s
+[CV]  max_depth=30, max_features=log2, n_estimators=100, score=0.950, total=   0.4s
 [CV] max_depth=30, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=100, score=0.949, total=   0.4s
+[CV]  max_depth=30, max_features=log2, n_estimators=100, score=0.949, total=   0.5s
 [CV] max_depth=30, max_features=log2, n_estimators=100 ...............
 [CV]  max_depth=30, max_features=log2, n_estimators=100, score=0.947, total=   0.4s
 [CV] max_depth=30, max_features=log2, n_estimators=100 ...............
@@ -18522,21 +18523,21 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=30, max_features=log2, n_estimators=100 ...............
 [CV]  max_depth=30, max_features=log2, n_estimators=100, score=0.939, total=   0.4s
 [CV] max_depth=30, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.950, total=   0.5s
+[CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.950, total=   0.7s
 [CV] max_depth=30, max_features=log2, n_estimators=150 ...............
 [CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.949, total=   0.6s
 [CV] max_depth=30, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.947, total=   0.6s
+[CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.947, total=   0.8s
 [CV] max_depth=30, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.956, total=   0.7s
+[CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.956, total=   0.8s
 [CV] max_depth=30, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.939, total=   0.6s
+[CV]  max_depth=30, max_features=log2, n_estimators=150, score=0.939, total=   0.9s
 [CV] max_depth=30, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=200, score=0.950, total=   0.9s
+[CV]  max_depth=30, max_features=log2, n_estimators=200, score=0.950, total=   0.8s
 [CV] max_depth=30, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=200, score=0.949, total=   0.8s
+[CV]  max_depth=30, max_features=log2, n_estimators=200, score=0.949, total=   0.9s
 [CV] max_depth=30, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=200, score=0.947, total=   0.8s
+[CV]  max_depth=30, max_features=log2, n_estimators=200, score=0.947, total=   0.9s
 [CV] max_depth=30, max_features=log2, n_estimators=200 ...............
 [CV]  max_depth=30, max_features=log2, n_estimators=200, score=0.956, total=   0.8s
 [CV] max_depth=30, max_features=log2, n_estimators=200 ...............
@@ -18544,11 +18545,11 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=30, max_features=log2, n_estimators=250 ...............
 [CV]  max_depth=30, max_features=log2, n_estimators=250, score=0.950, total=   1.1s
 [CV] max_depth=30, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=250, score=0.949, total=   1.1s
+[CV]  max_depth=30, max_features=log2, n_estimators=250, score=0.949, total=   1.0s
 [CV] max_depth=30, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=250, score=0.947, total=   1.1s
+[CV]  max_depth=30, max_features=log2, n_estimators=250, score=0.947, total=   1.2s
 [CV] max_depth=30, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=30, max_features=log2, n_estimators=250, score=0.956, total=   1.1s
+[CV]  max_depth=30, max_features=log2, n_estimators=250, score=0.956, total=   1.2s
 [CV] max_depth=30, max_features=log2, n_estimators=250 ...............
 [CV]  max_depth=30, max_features=log2, n_estimators=250, score=0.939, total=   1.0s
 [CV] max_depth=40, max_features=auto, n_estimators=50 ................
@@ -18560,7 +18561,7 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=40, max_features=auto, n_estimators=50 ................
 [CV]  max_depth=40, max_features=auto, n_estimators=50, score=0.956, total=   0.2s
 [CV] max_depth=40, max_features=auto, n_estimators=50 ................
-[CV]  max_depth=40, max_features=auto, n_estimators=50, score=0.939, total=   0.3s
+[CV]  max_depth=40, max_features=auto, n_estimators=50, score=0.939, total=   0.2s
 [CV] max_depth=40, max_features=auto, n_estimators=100 ...............
 [CV]  max_depth=40, max_features=auto, n_estimators=100, score=0.950, total=   0.5s
 [CV] max_depth=40, max_features=auto, n_estimators=100 ...............
@@ -18574,133 +18575,133 @@ Testing Data Score: 0.946824224519941
 [CV] max_depth=40, max_features=auto, n_estimators=150 ...............
 [CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.950, total=   0.6s
 [CV] max_depth=40, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.949, total=   0.8s
+[CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.949, total=   0.7s
 [CV] max_depth=40, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.947, total=   0.8s
+[CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.947, total=   0.6s
 [CV] max_depth=40, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.956, total=   0.7s
+[CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.956, total=   0.6s
 [CV] max_depth=40, max_features=auto, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.939, total=   0.7s
+[CV]  max_depth=40, max_features=auto, n_estimators=150, score=0.939, total=   0.6s
 [CV] max_depth=40, max_features=auto, n_estimators=200 ...............
 [CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.950, total=   0.8s
 [CV] max_depth=40, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.949, total=   0.7s
+[CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.949, total=   0.6s
 [CV] max_depth=40, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.947, total=   0.6s
+[CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.947, total=   0.9s
 [CV] max_depth=40, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.956, total=   0.6s
+[CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.956, total=   0.8s
 [CV] max_depth=40, max_features=auto, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.939, total=   0.7s
+[CV]  max_depth=40, max_features=auto, n_estimators=200, score=0.939, total=   0.9s
 [CV] max_depth=40, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.950, total=   0.7s
+[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.950, total=   1.1s
 [CV] max_depth=40, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.949, total=   0.8s
+[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.949, total=   1.1s
 [CV] max_depth=40, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.947, total=   0.9s
+[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.947, total=   1.2s
 [CV] max_depth=40, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.956, total=   0.7s
+[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.956, total=   1.1s
 [CV] max_depth=40, max_features=auto, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.939, total=   0.8s
+[CV]  max_depth=40, max_features=auto, n_estimators=250, score=0.939, total=   1.1s
 [CV] max_depth=40, max_features=sqrt, n_estimators=50 ................
 [CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.950, total=   0.2s
 [CV] max_depth=40, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.949, total=   0.1s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.949, total=   0.2s
 [CV] max_depth=40, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.947, total=   0.1s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.947, total=   0.2s
 [CV] max_depth=40, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.956, total=   0.2s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.956, total=   0.3s
 [CV] max_depth=40, max_features=sqrt, n_estimators=50 ................
-[CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.939, total=   0.2s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=50, score=0.939, total=   0.4s
 [CV] max_depth=40, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.950, total=   0.3s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.950, total=   0.4s
 [CV] max_depth=40, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.949, total=   0.3s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.949, total=   0.4s
 [CV] max_depth=40, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.947, total=   0.3s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.947, total=   0.5s
 [CV] max_depth=40, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.956, total=   0.4s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.956, total=   0.5s
 [CV] max_depth=40, max_features=sqrt, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.939, total=   0.3s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=100, score=0.939, total=   0.5s
 [CV] max_depth=40, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.950, total=   0.4s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.950, total=   0.7s
 [CV] max_depth=40, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.949, total=   0.5s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.949, total=   0.6s
 [CV] max_depth=40, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.947, total=   0.5s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.947, total=   0.7s
 [CV] max_depth=40, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.956, total=   0.6s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.956, total=   0.7s
 [CV] max_depth=40, max_features=sqrt, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.939, total=   0.5s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=150, score=0.939, total=   0.7s
 [CV] max_depth=40, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.950, total=   0.7s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.950, total=   1.0s
 [CV] max_depth=40, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.949, total=   0.8s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.949, total=   1.0s
 [CV] max_depth=40, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.947, total=   0.6s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.947, total=   0.8s
 [CV] max_depth=40, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.956, total=   0.7s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.956, total=   0.8s
 [CV] max_depth=40, max_features=sqrt, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.939, total=   0.6s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=200, score=0.939, total=   1.0s
 [CV] max_depth=40, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.950, total=   0.8s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.950, total=   1.1s
 [CV] max_depth=40, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.949, total=   0.8s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.949, total=   1.5s
 [CV] max_depth=40, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.947, total=   0.9s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.947, total=   1.2s
 [CV] max_depth=40, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.956, total=   0.8s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.956, total=   1.4s
 [CV] max_depth=40, max_features=sqrt, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.939, total=   0.8s
+[CV]  max_depth=40, max_features=sqrt, n_estimators=250, score=0.939, total=   1.9s
 [CV] max_depth=40, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.950, total=   0.2s
+[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.950, total=   0.3s
 [CV] max_depth=40, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.949, total=   0.2s
+[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.949, total=   0.3s
 [CV] max_depth=40, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.947, total=   0.1s
+[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.947, total=   0.3s
 [CV] max_depth=40, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.956, total=   0.2s
+[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.956, total=   0.3s
 [CV] max_depth=40, max_features=log2, n_estimators=50 ................
-[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.939, total=   0.2s
+[CV]  max_depth=40, max_features=log2, n_estimators=50, score=0.939, total=   0.4s
 [CV] max_depth=40, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.950, total=   0.3s
+[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.950, total=   0.6s
 [CV] max_depth=40, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.949, total=   0.3s
+[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.949, total=   0.5s
 [CV] max_depth=40, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.947, total=   0.3s
+[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.947, total=   0.5s
 [CV] max_depth=40, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.956, total=   0.4s
+[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.956, total=   0.7s
 [CV] max_depth=40, max_features=log2, n_estimators=100 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.939, total=   0.3s
+[CV]  max_depth=40, max_features=log2, n_estimators=100, score=0.939, total=   0.6s
 [CV] max_depth=40, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.950, total=   0.5s
+[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.950, total=   1.0s
 [CV] max_depth=40, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.949, total=   0.5s
+[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.949, total=   1.0s
 [CV] max_depth=40, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.947, total=   0.5s
+[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.947, total=   1.3s
 [CV] max_depth=40, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.956, total=   0.7s
+[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.956, total=   1.0s
 [CV] max_depth=40, max_features=log2, n_estimators=150 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.939, total=   0.7s
+[CV]  max_depth=40, max_features=log2, n_estimators=150, score=0.939, total=   0.9s
 [CV] max_depth=40, max_features=log2, n_estimators=200 ...............
 [CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.950, total=   1.2s
 [CV] max_depth=40, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.949, total=   0.9s
+[CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.949, total=   1.7s
 [CV] max_depth=40, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.947, total=   0.7s
+[CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.947, total=   1.5s
 [CV] max_depth=40, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.956, total=   0.7s
+[CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.956, total=   1.3s
 [CV] max_depth=40, max_features=log2, n_estimators=200 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.939, total=   0.8s
+[CV]  max_depth=40, max_features=log2, n_estimators=200, score=0.939, total=   1.1s
 [CV] max_depth=40, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.950, total=   0.7s
+[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.950, total=   1.0s
 [CV] max_depth=40, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.949, total=   0.7s
+[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.949, total=   1.6s
 [CV] max_depth=40, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.947, total=   0.8s
+[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.947, total=   1.8s
 [CV] max_depth=40, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.956, total=   0.8s
+[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.956, total=   1.7s
 [CV] max_depth=40, max_features=log2, n_estimators=250 ...............
-[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.939, total=   0.8s
+[CV]  max_depth=40, max_features=log2, n_estimators=250, score=0.939, total=   1.4s
 </pre>
 </div>
 </div>
@@ -18711,7 +18712,7 @@ Testing Data Score: 0.946824224519941
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>[Parallel(n_jobs=1)]: Done 300 out of 300 | elapsed:  3.1min finished
+<pre>[Parallel(n_jobs=1)]: Done 300 out of 300 | elapsed:  3.4min finished
 </pre>
 </div>
 </div>
@@ -19025,19 +19026,6 @@ weighted avg       0.95      0.95      0.95      2031
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
 </div>
 </div>
 
