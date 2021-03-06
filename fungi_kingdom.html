@@ -9,93 +9,17 @@
 </head>
 
 <body>
-    <div class="nav">
-        <input type="checkbox" id="menu"/>
-        <label for="menu" id="nav-icon">&#9776;</label>
-    
-        
-        <div class="multi-level">
-            <div class="item"href="about.html">
-                <input type="checkbox" id="A"/>
-                <img src="images/Arrow.png" class="arrow"><label for="A">About This Project</label>
-                <ul>
-                    <li><a href="about.html">Proposal</a></li> <ul>
+      <div id="observablehq-chart-a68be567"></div>
+      <p>Credit: <a href="https://observablehq.com/d/986644f6524333c8">2021 Mushroom Toxicity Classification by Aaron Robertson</a></p>
+      
+      <script type="module">
+      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+      import define from "https://api.observablehq.com/d/986644f6524333c8.js?v=3";
+      new Runtime().module(define, name => {
+        if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-a68be567"));
+      });
+      </script>
 
-                    </ul>
-
-                </ul>
-                
-            </div>
-            <div class="item">
-                <input type="checkbox" id="B"/>
-                <img src="images/Arrow.png" class="arrow"><label for="B">Analysis & Summary</label>
-                
-                <ul>
-                    <li><a href="ml_setup.html">Settings</a></li>
-                    <li><a href="ml_data_prep.html">Preparing The Data</a></li>
-                    <li><a href="ml_analysis.html">Analysis</a></li>
-                    
-
-                    <li><div class="sub-item">
-                        <input type="checkbox" id="B-A"/>
-                        <img src="images/Arrow.png" class="arrow"><label for="B-A">Partial Model</label>
-                        
-                        <ul>
-                            <li><a href="ml_model_KNN.html">Model_KNN</a></li>
-                            <li><a href="ml_model_preprocessing.html">Model Preprocessing</a></li>
-                            <li><a href="ml_model_random_forest.html">Model Random Forest</a></li>
-                            <li><a href="ml_model_SVM.html">Model_SVM</a></li>
-                        </ul>
-                    </div></li>
-                    <li><div class="sub-item">
-                        <input type="checkbox" id="B-B"/>
-                        <img src="images/Arrow.png" class="arrow"><label for="B-B">Full Model</label>
-                        
-                        <ul>
-                            <li><a href="ml_full_model_KNN.html">Full_Model_KNN</a></li>
-                            <li><a href="ml_full_model_random_forest.html">Full Model Random Forest</a></li>
-                            <li><a href="ml_full_model_SVM.html">Full_Model_SVM</a></li>
-                        </ul>
-                        
-                    </div></li>
-                    
-                    
-                </ul>
-            </div>
-            <div class="item">
-                <input type="checkbox" id="C"/>
-                <img src="images/Arrow.png" class="arrow"><label for="C">Meet The Team</label>
-                
-                <ul>
-                    <li><a href="https://github.com/doublealogic">Aaron Robertson</a></li>
-                    <li><a href="https://blt1339.github.io/">Beverly Thompson</a></li>
-                    <li><a href="https://essi5764.github.io/">Essi Amefia Monneus</a></li>
-                </ul>
-            </div>
-        </div>
-    <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-12">
-            <h1>Fungi Kingdom: Mushroom Edibility Classification 2021</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12  col-md-9">
-              <div class="chart">
-              </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12  col-md-9">
-            <div class="article">
-                <p>Insert text here.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <script src="https://d3js.org/d3.v5.min.js"></script>
-      <script type="text/javascript" src="js/sunburst_chart.js"></script>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </body>
 
 </html>
