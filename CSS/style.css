@@ -5,6 +5,7 @@ body{
   opacity: 0.8;
 }
 
+
 .content{
   background: white;
   width: 70%;
@@ -67,6 +68,8 @@ label {
   display: block;
   z-index: 3;
   position: relative;
+ /* font-family: calibri;*/
+  /*font-size: 50px;*/
 }
 .nav {
   width: 100%;
