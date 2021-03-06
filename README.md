@@ -2,9 +2,10 @@
 ### Team: Aaron Robertson, Beverly Thompson and Essi Monneus
 
 ## Background
+As eating healthy is on the rise, everyone is trying to be as natural as possible; even growing their own food. Mushroom starter kits are even available on the market. How do we know if we can safely enjoy our fabulous fungi? Machine learning can be used to help classify typical characteristics that can help determine which are the most dangerous and should be avoided.
 
 ## Project Tasks
-In this project, we were tasked with demystifying ML (Machine Learning). First we needed to find a problem that was worth solving, analyzing or visualizing; in our case, mushroom toxicity. We would need to use a machine learning library such as Scikit-Learn. To add to this, we would need to use at least two other tools. Below is a list of the tools we utilized:  
+In this project, we were tasked with demystifying ML (Machine Learning). First we needed to find a problem that was worth solving, analyzing or visualizing; in our case, we chose the topic of mushroom toxicity. We would need to use a machine learning library such as Scikit-Learn to help with this process. To add to this, we would need to use at least two other tools. Below is a list of the tools we utilized:  
 * Python Pandas
 * Python Matplotlib
 * Python Seaborn
