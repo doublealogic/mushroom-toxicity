@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mushroom Edibility Classification 2021</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+      <div id="observablehq-chart-a68be567"></div>
+      <p>Credit: <a href="https://observablehq.com/d/986644f6524333c8">2021 Mushroom Toxicity Classification by Aaron Robertson</a></p>
+      
+      <script type="module">
+      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+      import define from "https://api.observablehq.com/d/986644f6524333c8.js?v=3";
+      new Runtime().module(define, name => {
+        if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-a68be567"));
+      });
+      </script>
+
+</body>
+
+</html>
