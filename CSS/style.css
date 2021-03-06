@@ -1,5 +1,5 @@
 body{
-  background-image:url("/images/Mushroom.jpg");
+  background-image:url("../images/Mushroom.jpg");
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.8;
