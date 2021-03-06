@@ -28,7 +28,7 @@ Speaking of future enhancements, here are some features we would like to impleme
 * Machine Learning Improvements
     * Currently, two of the models we used for machine learning came out with identical results. In the future, we would investigate the Random Forest and K-Nearest Neighbor models to determine the cause of these identical scores.
 * Sunburst Chart Popovers
-    * We would enhance the sunburst chart by adding a feature where if you click on a genera or species, a popover would come on screen providing a link to MycoBank or any other hub providing more information on the mushroom. 
+    * We would like to enhance the sunburst chart by adding a feature where if you click on a genera or species, a popover would come on screen providing a link to MycoBank or any other hub providing more information on the mushroom. 
 
 ## Data Resources
 * [Kaggle Dataset](https://www.kaggle.com/uciml/mushroom-classification)
