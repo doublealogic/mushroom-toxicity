@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+    <div class="nav">
+        <input type="checkbox" id="menu"/>
+        <label for="menu" id="nav-icon">&#9776;</label>
+    
+        
+        <div class="multi-level">
+            <div class="item" href="about.html">
+                <input type="checkbox" id="A"/>
+                <img src="images/Arrow.png" class="arrow"><label for="A">About This Project</label>
+				<ul>
+                    <li><a href="about.html">Proposal</a></li>
+                </ul>
+               
+            </div>
+            <div class="item"href="about.html">
+                <input type="checkbox" id="B"/>
+                <img src="images/Arrow.png" class="arrow"><label for="B">Project Data Source</label>
+				<ul>
+                    <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1541-4337.12708">Reviewing the world's edible mushroom species: A new evidence‐based classification system</a></li> 
+                    <li><a href="https://www.kaggle.com/uciml/mushroom-classification">Kaggle Mushroom Classification</a></li> 
+					
+
+                </ul>
+               
+            </div>
+            <div class="item"href="summary.html">
+                <input type="checkbox" id="C"/>
+                <img src="images/Arrow.png" class="arrow"><label for="C">Mushroom Toxicity Charts</label>
+				<ul>
+                    <li><a href="summary.html">Fungi Kingdom</a></li>
+                </ul>
+               
+            </div>
+            <div class="item">
+                <input type="checkbox" id="D"/>
+                <img src="images/Arrow.png" class="arrow"><label for="D">Mushroom Toxicity Machine Learning</label>
+                
+                <ul>
+					<li><a href="ml_setup.html">Setup</a></li>
+					<li><a href="ml_data_prep.html">Preparing The Data</a></li>
+                    <li><a href="ml_analysis.html">Analysis</a></li>
+					<li><a href="ml_model_preprocessing.html">Model Processing</a></li>
+
+                    <li><div class="sub-item">
+                        <input type="checkbox" id="D-A"/>
+                        <img src="images/Arrow.png" class="arrow"><label for="D-A">Models</label>
+                        
+                        <ul>
+                            <li><a href="ml_model_random_forest.html">Random Forest Model</a></li>
+                            <li><a href="ml_model_KNN.html">K-Nearest Neighbor Model</a></li>
+							<li><a href="ml_model_SVM.html">Support Vector Machines (SVM) Model</a></li>
+                        </ul>
+                    </div></li>
+                    <li><div class="sub-item">
+                        <input type="checkbox" id="D-B"/>
+                        <img src="images/Arrow.png" class="arrow"><label for="D-B">Complete Machine Learning Model Processing</label>
+                        
+                        <ul>
+                            <li><a href="ml_full_model_random_forest.html">Random Forest Model</a></li>
+                            <li><a href="ml_full_model_KNN.html">K-Nearest Neighbor Model</a></li>
+							<li><a href="ml_full_model_SVM.html">Support Vector Machines (SVM) Model</a></li>
+                        </ul>
+                        
+                    </div></li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="item">
+                <input type="checkbox" id="E"/>
+                <img src="images/Arrow.png" class="arrow"><label for="E">Meet The Team</label>
+                
+                <ul>
+                    <li><a href="https://github.com/doublealogic">Aaron Robertson</a></li>
+                    <li><a href="https://blt1339.github.io/">Beverly Thompson</a></li>
+                    <li><a href="https://essi5764.github.io/">Essi Amefia Monneus</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="content">
+        <p>Machine Learning Summary<br>
+        <br>
+        <br>
+        We created three machine learning models: 
+        <br>
+        <br>
+	      <b>Random Forest Model</b>
+        <br>
+		    Best Random Forest Training Data Score: 0.9481372066305597
+        <br>
+            Best Random Forest Testing Data Score: 0.946824224519941
+            <br> 
+            <br>           
+	        <b>K-Nearest Neighbor Model</b>
+            <br>
+            Best KNN Training Data Score: 0.9481372066305597
+            <br>
+            Best KNN Testing Data Score: 0.946824224519941
+            <br>
+            <br>
+	        <b>Support Vector Machines (SVM) Model</b>
+            <br>
+            Best SVM Training Data Score: 0.9333661578860988
+            <br>
+            Best SVM Testing Data Score: 0.9271294928606598
+            <br>
+            <br>
+        The best result was the result that was gotten for K-Nearest Neighbor and Random Forest.   They actually got the exact same score.   This seems like it could be problematic.   More research is needed to determine the actual cause of this and if it is a problem with one or both of the completely different models.
+        <br>
+    </div>
+
+</body>
+</html>
