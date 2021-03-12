@@ -20,6 +20,7 @@ body{
     border-radius: 10px;
 }
 
+
 nav {
 	background: darkolivegreen;
 	opacity: .8;
@@ -81,3 +82,37 @@ nav h1 {
 	left: 148px;
 	width: 150px;
 }
+
+/* The alert message box */
+.alert {
+	padding: 20px;
+	background-color: #eeb808; /* Red */
+	color: white;
+	margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+	color: black;
+}
+
+.center-screen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+  }
