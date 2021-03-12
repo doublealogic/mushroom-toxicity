@@ -8,112 +8,43 @@
 </head>
 
 <body>
-    <div class="nav">
-        
-        <input type="checkbox" id="menu"/>
-        <label for="menu" id="nav-icon" >&#9776;Mushroom Toxicity</label>
-
-        <div class="multi-level">
-            <div class="item" href="about.html">
-                <input type="checkbox" id="A"/>
-                <img src="images/Arrow.png" class="arrow"><label for="A">About This Project</label>
-				<ul>
-                    <li><a href="about.html">Proposal</a></li>
-                </ul>
-               
-            </div>
-            <div class="item"href="about.html">
-                <input type="checkbox" id="B"/>
-                <img src="images/Arrow.png" class="arrow"><label for="B">Project Data Source</label>
-				<ul>
-                    <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1541-4337.12708">Reviewing the world's edible mushroom species: A new evidence‐based classification system</a></li> 
-                    <li><a href="https://www.kaggle.com/uciml/mushroom-classification">Kaggle Mushroom Classification</a></li> 
-					
-
-                </ul>
-               
-            </div>
-            <div class="item"href="summary.html">
-                <input type="checkbox" id="C"/>
-                <img src="images/Arrow.png" class="arrow"><label for="C">Mushroom Toxicity Charts</label>
-				<ul>
-                    <li><a href="fungi_kingdom.html">Fungi Kingdom</a></li>
-                </ul>
-               
-            </div>
-            <div class="item">
-                <input type="checkbox" id="D"/>
-                <img src="images/Arrow.png" class="arrow"><label for="D">Mushroom Toxicity Machine Learning</label>
-                
-                <ul>
-					<li><a href="ml_setup.html">Setup</a></li>
-					<li><a href="ml_data_prep.html">Preparing The Data</a></li>
-                    <li><a href="ml_analysis.html">Analysis</a></li>
-					<li><a href="ml_model_preprocessing.html">Model Processing</a></li>
-
-                    <li><div class="sub-item">
-                        <input type="checkbox" id="D-A"/>
-                        <img src="images/Arrow.png" class="arrow"><label for="D-A">Models</label>
-                        
-                        <ul>
-                            <li><a href="ml_model_random_forest.html">Random Forest Model</a></li>
-                            <li><a href="ml_model_KNN.html">K-Nearest Neighbor Model</a></li>
-							<li><a href="ml_model_SVM.html">Support Vector Machines (SVM) Model</a></li>
-                        </ul>
-                    </div></li>
-                    <li><div class="sub-item">
-                        <input type="checkbox" id="D-B"/>
-                        <img src="images/Arrow.png" class="arrow"><label for="D-B">Complete Machine Learning Model Processing</label>
-                        
-                        <ul>
-                            <li><a href="ml_full_model_random_forest.html">Random Forest Model</a></li>
-                            <li><a href="ml_full_model_KNN.html">K-Nearest Neighbor Model</a></li>
-							<li><a href="ml_full_model_SVM.html">Support Vector Machines (SVM) Model</a></li>
-                        </ul>
-                        
-                    </div></li>
-                    <li><div class="sub-item">
-                        <input type="checkbox" id="D-C"/>
-                        <img src="images/Arrow.png" class="arrow"><label for="D-C">Machine Learning Summary</label>
-                        
-                        <ul>
-                            <li><a href="ml_summary.html">Summary</a></li>
-                        </ul>
-                        
-                    </div></li>
+	<div class="wrapper">
+		<nav>
+			<h1>Mushroom Toxicity</h1>
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+                <li><a href="https://github.com/doublealogic/butler-project3-groupf">GitHub</a></li>
+				<li><a href="">Data</a>
+                    <ul class="dropdown">
+                        <li><a href="https://www.kaggle.com/uciml/mushroom-classification">Kaggle</a></li>
+						<li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1541-4337.12708">Wiley</a></li> 
+                    </ul>
+                <li><a href="fungi_kingdom.html">Chart</a>
+                <li><a href="">Machine Learning</a>
+					<ul class="dropdown">
+						
+						<li class="dropdown-link"><a href="">Models</a>
+							<ul class="dropdown-2">
+                                <li><a href="ml_full_model_random_forest.html">Random Forest Model</a></li>
+                                <li><a href="ml_full_model_KNN.html">K-Nearest Neighbor Model</a></li>
+                                <li><a href="ml_full_model_SVM.html">Support Vector Machines (SVM) Model</a></li>
+							</ul>
+						</li>
+						<li><a href="ml_summary.html">Summary</a></li>
+					</ul>
+				</li>
+				<li><a href="">Contact</a>
+                    <ul class="dropdown">
+                        <li><a href="https://github.com/doublealogic">Aaron Robertson</a></li>
+                        <li><a href="https://blt1339.github.io/">Beverly Thompson</a></li>
+                        <li><a href="https://essi5764.github.io/">Essi Amefia Monneus</a></li>
+                    </ul>
+                </li>
                     
-                    
-                </ul>
-            </div>
-            <div class="item">
-                <input type="checkbox" id="E"/>
-                <img src="images/Arrow.png" class="arrow"><label for="E">Meet The Team</label>
-                
-                <ul>
-                    <li><a href="https://github.com/doublealogic">Aaron Robertson</a></li>
-                    <li><a href="https://blt1339.github.io/">Beverly Thompson</a></li>
-                    <li><a href="https://essi5764.github.io/">Essi Amefia Monneus</a></li>
-                </ul>
-            </div>
-        </div>
-    
-
-        <form method="get" action="http://www.google.com/search">
-
-            <div style="border:2px dotted black;padding:4px;width:15em;">
-            <table border="0" align="center" cellpadding="0">
-            <tr><td>
-            <input type="text"   name="q" size="25" style="color:#808080;"
-            maxlength="255" value="Search For Your Mushroom!"
-            onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';" onblur="if(this.value=='')this.value=this.defaultValue; "/>
-            <input type="submit" value="Go!" />
-            </td></tr>
-            </table>
-            </div>
-            
-        </form>
-
-    </div>
+			</ul>
+		</nav>
+	</div>
     <!---->
     <div id="observablehq-chart-62623d5e"></div>
     <p>Credit: <a href="https://observablehq.com/d/986644f6524333c8">2021 Mushroom Toxicity Classification by Aaron Robertson</a></p>
