@@ -26,7 +26,7 @@ Below are some screenshots from our final website:
 ### Front Page
 ![Front Page](images/_Website/MT_Website_Snip1.png)
 ### Sunburst Chart
-![Sunburst Chart](images/_Website/MT_Website_Snip2.png)
+![Sunburst Chart](images/_Website/MT_Website_Snip2.gif)
 ### Machine Learning Charts
 ![ML Chart 1](images/_Website/MT_Website_Snip3.png)
 ![ML Chart 2](images/_Website/MT_Website_Snip4.png)
