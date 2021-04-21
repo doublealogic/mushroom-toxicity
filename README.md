@@ -21,6 +21,16 @@ You can find our proposal based on the above background [here](Proposal.md).
 
 We also have a [slideshow](https://docs.google.com/presentation/d/10ECGgO3wZVm5tsjuCCfcwhFFtnVVg3l6xVniVA0MjBk/edit?usp=sharing) that highlights what we did along with our findings, difficulties encountered, and how we would work to enhance this project in the future.
 
+## Final Website Preview
+Below are some screenshots from our final website:
+### Front Page
+![Front Page](images/_Website/MT_Website_Snip1.png)
+### Sunburst Chart
+![Sunburst Chart](images/_Website/MT_Website_Snip2.png)
+### Machine Learning Charts
+![ML Chart 1](images/_Website/MT_Website_Snip3.png)
+![ML Chart 2](images/_Website/MT_Website_Snip4.png)
+
 ## Future Enhancements
 Speaking of future enhancements, here are some features we would like to implement in the future given more time:
 * Mushroom Image Scanner: Is my mushroom edible or poisonous?
