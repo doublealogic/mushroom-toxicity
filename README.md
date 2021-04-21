@@ -24,12 +24,12 @@ We also have a [slideshow](https://docs.google.com/presentation/d/10ECGgO3wZVm5t
 ## Final Website Preview
 Below are some screenshots from our final website:
 ### Front Page
-![Front Page](images/_Website/MT_Website_Snip1.png)
+![Front Page](images/_Website/MT_Website_Snip1.PNG)
 ### Sunburst Chart
 ![Sunburst Chart](images/_Website/MT_Website_Snip2.gif)
 ### Machine Learning Charts
-![ML Chart 1](images/_Website/MT_Website_Snip3.png)
-![ML Chart 2](images/_Website/MT_Website_Snip4.png)
+![ML Chart 1](images/_Website/MT_Website_Snip3.PNG)
+![ML Chart 2](images/_Website/MT_Website_Snip4.PNG)
 
 ## Future Enhancements
 Speaking of future enhancements, here are some features we would like to implement in the future given more time:
